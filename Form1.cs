@@ -804,6 +804,10 @@ namespace MvsxPackBuilder
         // got lazy, slightly modified from https://stackoverflow.com/questions/1922040/how-to-resize-an-image-c-sharp
         public void ExportThumbnail(int maxWidth, int maxHeight, string inputPath, string outputPath)
         {
+            if(!File.Exists(inputPath))
+            {
+                return;
+            }
             var image = System.Drawing.Image.FromFile(inputPath);
             var ratioX = (double)maxWidth / image.Width;
             var ratioY = (double)maxHeight / image.Height;
