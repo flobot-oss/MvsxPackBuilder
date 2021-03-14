@@ -39,9 +39,17 @@ namespace AsyncUtils
             {
                 await Task.Run(action, cancelTokenSource.Token);
             }
-            catch
+            catch (TaskCanceledException)
             {
                 wasCancelled = true;
+                this.Close();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString(), "Exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                wasCancelled = true;
+                this.DialogResult = DialogResult.Abort;
                 this.Close();
             }
             finally
