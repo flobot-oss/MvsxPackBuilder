@@ -56,6 +56,9 @@
     <None Update="data\fba_romdat\FB Alpha v0.2.97.43 %28ClrMame Pro XML, TurboGrafx16 only%29.dat">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
