@@ -453,6 +453,9 @@ namespace MvsxPackBuilder
             for(Int32 CategoryIndex = 0; CategoryIndex < HyloHack.Categories.Count; ++CategoryIndex)
             {
                 Hylo.Category Category = HyloHack.Categories[CategoryIndex];
+                Category.CustomBackgroundPath = Path.Combine(Hylo.GetBackgroundPath(Settings.HyloXFolder), string.Format(Hylo.BackgroundImageFormat, CategoryIndex));
+                Category.CustomIndicatorPath = Path.Combine(Hylo.GetIndicatorPath(Settings.HyloXFolder), string.Format(Hylo.IndicatorFolderFormat, CategoryIndex), Hylo.IndicatorImage);
+
                 string gamesIniFilename = Hylo.GetGamesIniFromCategoryIndex(Settings.HyloXFolder, CategoryIndex);
                 Category.Entries = HyloGameIniParser.Deserialize(gamesIniFilename);
 
