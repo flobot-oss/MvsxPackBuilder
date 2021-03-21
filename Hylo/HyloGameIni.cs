@@ -65,6 +65,11 @@ namespace MvsxPackBuilder
         {
             List<Hylo.GameEntry> gameEntries = new List<Hylo.GameEntry>();
 
+            if(!File.Exists(FilePath))
+            {
+                return gameEntries;
+            }
+
             using (StreamReader reader = File.OpenText(FilePath))
             {
                 Hylo.GameEntry activeEntry = null;

@@ -107,6 +107,14 @@ namespace MvsxPackBuilder
             return Path.Combine(gamesIniPath, string.Format("games{0:d}.ini", Index));
         }
 
+        static public string GetOfficialGamesIniFromCategoryIndex(string HyloPath)
+        {
+            string localPath = GetLocalPath(HyloPath);
+            string gamesIniPath = Path.Combine(localPath, EnglishFolder);
+            return Path.Combine(gamesIniPath, "games.ini");
+        }
+
+
         static public List<string> GetGamesIni(string HyloPath)
         {
             string localPath = GetLocalPath(HyloPath);
