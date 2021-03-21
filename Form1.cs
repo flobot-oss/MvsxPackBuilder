@@ -1067,5 +1067,10 @@ namespace MvsxPackBuilder
         {
             this.Close();
         }
+
+        private void CategorySettingButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

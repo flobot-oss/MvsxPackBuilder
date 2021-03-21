@@ -66,6 +66,7 @@ namespace MvsxPackBuilder
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.coverArtButton1 = new System.Windows.Forms.Button();
+            this.CategorySettingButton1 = new System.Windows.Forms.Button();
             this.FbaContextMenuStrip1.SuspendLayout();
             this.GameIniContextMenuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -127,9 +128,9 @@ namespace MvsxPackBuilder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.HylostickGameIniComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.HylostickGameIniComboBox.FormattingEnabled = true;
-            this.HylostickGameIniComboBox.Location = new System.Drawing.Point(3, 19);
+            this.HylostickGameIniComboBox.Location = new System.Drawing.Point(34, 19);
             this.HylostickGameIniComboBox.Name = "HylostickGameIniComboBox";
-            this.HylostickGameIniComboBox.Size = new System.Drawing.Size(429, 23);
+            this.HylostickGameIniComboBox.Size = new System.Drawing.Size(398, 23);
             this.HylostickGameIniComboBox.TabIndex = 2;
             this.HylostickGameIniComboBox.SelectedIndexChanged += new System.EventHandler(this.HylostickGameIni_SelectedIndexChanged);
             // 
@@ -206,6 +207,7 @@ namespace MvsxPackBuilder
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.CategorySettingButton1);
             this.groupBox2.Controls.Add(this.RemoveCategoryButton);
             this.groupBox2.Controls.Add(this.AddCategoryButton);
             this.groupBox2.Controls.Add(this.groupBox4);
@@ -221,7 +223,7 @@ namespace MvsxPackBuilder
             // RemoveCategoryButton
             // 
             this.RemoveCategoryButton.Image = ((System.Drawing.Image)(resources.GetObject("RemoveCategoryButton.Image")));
-            this.RemoveCategoryButton.Location = new System.Drawing.Point(476, 13);
+            this.RemoveCategoryButton.Location = new System.Drawing.Point(476, 15);
             this.RemoveCategoryButton.Name = "RemoveCategoryButton";
             this.RemoveCategoryButton.Size = new System.Drawing.Size(32, 32);
             this.RemoveCategoryButton.TabIndex = 5;
@@ -231,7 +233,7 @@ namespace MvsxPackBuilder
             // AddCategoryButton
             // 
             this.AddCategoryButton.Image = ((System.Drawing.Image)(resources.GetObject("AddCategoryButton.Image")));
-            this.AddCategoryButton.Location = new System.Drawing.Point(438, 13);
+            this.AddCategoryButton.Location = new System.Drawing.Point(438, 15);
             this.AddCategoryButton.Name = "AddCategoryButton";
             this.AddCategoryButton.Size = new System.Drawing.Size(32, 32);
             this.AddCategoryButton.TabIndex = 4;
@@ -383,6 +385,16 @@ namespace MvsxPackBuilder
             this.coverArtButton1.UseVisualStyleBackColor = true;
             this.coverArtButton1.Click += new System.EventHandler(this.coverArtButton1_Click);
             // 
+            // CategorySettingButton1
+            // 
+            this.CategorySettingButton1.Image = ((System.Drawing.Image)(resources.GetObject("CategorySettingButton1.Image")));
+            this.CategorySettingButton1.Location = new System.Drawing.Point(4, 18);
+            this.CategorySettingButton1.Name = "CategorySettingButton1";
+            this.CategorySettingButton1.Size = new System.Drawing.Size(24, 24);
+            this.CategorySettingButton1.TabIndex = 6;
+            this.CategorySettingButton1.UseVisualStyleBackColor = true;
+            this.CategorySettingButton1.Click += new System.EventHandler(this.CategorySettingButton1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -444,6 +456,7 @@ namespace MvsxPackBuilder
         private System.Windows.Forms.Button coverArtButton1;
         private System.Windows.Forms.Button RemoveCategoryButton;
         private System.Windows.Forms.Button AddCategoryButton;
+        private System.Windows.Forms.Button CategorySettingButton1;
     }
 }
 

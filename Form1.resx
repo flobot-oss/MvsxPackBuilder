@@ -58,22 +58,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="CategorySettingButton1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAARJJREFUOE+d071KA0EUhuEloEETQzAXZmOb5CrsFNJIELQR8U5sBAmEgFb2ioIS
+        iIU/IBaKjXm/cM4we1YM+MHDDmfODjP7U/yRQ/yYIxWWZR07dl3FCL7AGGvYwJ5dS2ngAmq+xZONc894
+        sLEWbCJlF/GGZbSTFG3pHrHp28S6ekvHWMEM3vCBHuqmbzWf1xH1nBbZxxl8UrqIUS3vOccQpaJ8Ia2e
+        RTXNxf5K4RM6Uoxqmov9xQkus4JsI0a1vGeCYyyiB6X37JNv2ELNaKyaz79CH1yKvrIbeIN7N7H+iBZS
+        /vMh6e2lbOIampgi3657wZ2N1dtBKSocoI3835Ar6JiqD1C5+bdoi77AqQrVFMUcsCmOy/JTP/EAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
   <data name="RemoveCategoryButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vAAADrwBlbxySQAAAHRJREFUeF7t1jEKhEAMQNE50eL9L7VstaUmnUhgNWujvge/CePApHIAAAAAAAAA
-        6RW9T+wTfX+UZ6pvu+Ub2qZoPrF8YDVft+fMkfINbRYQVZd2s4Bits0Citk/WUDUZgFRdWm3yy3g8T9C
-        AAAAAAAAcAtjLHI42/B1iLY2AAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAAEZJREFUWEft0jEKACAIQFEP0AE6akM3byhdQ8EpG/6Dv4SgQwIAwG+aNpLNK2/G
+        y3aEurYTreSbl+0IcUD5AeWfEACAx0QOhrl3EVo/lwUAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="AddCategoryButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAPNJREFUeF7t
-        mDGqAkEQBfdE4v0vJUY/1OqskcdfHUW0rYJKllF8tYnMJiIiIu/igMcd68xYTnjZsc6MxQCYRncNgGMx
-        AKbRXQPgWAyAaXTXADgWA2Aa3TUAjsUAmEZ3DYBjMQCm0V0D4MdQ93P1g17lGf92rDPps6s+dcdYl5Tp
-        La1aA9Pz7j1nHrE2LGMATF+6qgHCs1sNEJ49owFwGQNg+tJVvy7Az/8RejX1g9Jb6taZsRgA0+iuAXAs
-        BsA0umsAHIsBMI3uGgDHYgBMo7sGwLEYANPorgFwLAbANLprABxL3c/VJeV/ftQdnoiIyFi27QqyD1WK
-        2THB6wAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAAHNJREFUWEftlMEJgDAQBFOABViqhdmdD735yXJqHnJB2YX5LJJMQLY5X80UzAJd
+        WZZgF+jKYgELWOC/AqwZBz2xBptAl32r3C4mk6ovy+DCni6DOy5jgeECw3/C3nCQvoyuLBawgAUswJox
+        qWdeWTinOK0djKjVgbCkDsoAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="openMVSXToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
