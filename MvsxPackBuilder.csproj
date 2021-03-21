@@ -25,6 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="data\default_bg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="data\default_cover.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
