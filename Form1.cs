@@ -254,6 +254,8 @@ namespace MvsxPackBuilder
         {
             InitializeComponent();
 
+            this.Icon = Properties.Resources.HyloIcon;
+
             // set the placeholder image
             pictureBox1.ImageLocation = PlaceholderCoverArtPath;
 
@@ -701,7 +703,7 @@ namespace MvsxPackBuilder
                     {
                         if (targetBackgroundFilename != category.CustomBackgroundPath)
                         {
-                            ExportThumbnail(1280, 1024, category.CustomBackgroundPath, targetBackgroundFilename);
+                            ExportResizedImageKeepAspectRatio(1280, 1024, category.CustomBackgroundPath, targetBackgroundFilename);
                         }
                     }
 
@@ -729,7 +731,7 @@ namespace MvsxPackBuilder
                     {
                         if (targetIndicatorFilename != category.CustomIndicatorPath)
                         {
-                            ExportThumbnail(286, 344, category.CustomIndicatorPath, targetIndicatorFilename);
+                            ExportResizedImageKeepAspectRatio(286, 344, category.CustomIndicatorPath, targetIndicatorFilename);
                         }
                     }
 
@@ -769,7 +771,7 @@ namespace MvsxPackBuilder
                         {
                             if (targetCoverArtFilename != entry.CustomCoverPath)
                             {
-                                ExportThumbnail(286, 321, entry.CustomCoverPath, targetCoverArtFilename);
+                                ExportResizedImageKeepAspectRatio(286, 321, entry.CustomCoverPath, targetCoverArtFilename);
                             }
                         }
 
@@ -883,97 +885,7 @@ namespace MvsxPackBuilder
             }
         }
 
-        // got lazy, slightly modified from https://stackoverflow.com/questions/1922040/how-to-resize-an-image-c-sharp
-        public void ExportThumbnail(int maxWidth, int maxHeight, string inputPath, string outputPath)
-        {
-            if(!File.Exists(inputPath))
-            {
-                return;
-            }
-            var image = System.Drawing.Image.FromFile(inputPath);
-            var ratioX = (double)maxWidth / image.Width;
-            var ratioY = (double)maxHeight / image.Height;
-            var ratio = Math.Min(ratioX, ratioY);
-            var newWidth = (int)(image.Width * ratio);
-            var newHeight = (int)(image.Height * ratio);
-            var newImage = new Bitmap(newWidth, newHeight);
-            Graphics thumbGraph = Graphics.FromImage(newImage);
-
-            thumbGraph.CompositingQuality = CompositingQuality.HighQuality;
-            thumbGraph.SmoothingMode = SmoothingMode.HighQuality;
-
-            thumbGraph.DrawImage(image, 0, 0, newWidth, newHeight);
-            image.Dispose();
-
-            newImage.Save(outputPath, System.Drawing.Imaging.ImageFormat.Png);
-        }
-
-       
-
-        // TODO: replace this is crap
-        public string ShowInputDialog(string text, string caption, bool isMultiline = false, int formWidth = 300, int formHeight = 208)
-        {
-            var prompt = new Form
-            {
-                Width = formWidth,
-                Height = isMultiline ? formHeight : formHeight - 70,
-                FormBorderStyle = isMultiline ? FormBorderStyle.Sizable : FormBorderStyle.FixedSingle,
-                Text = caption,
-                StartPosition = FormStartPosition.CenterScreen,
-                MaximizeBox = isMultiline
-            };
-
-            var textLabel = new Label
-            {
-                Left = 10,
-                Padding = new Padding(0, 3, 0, 0),
-                Text = text,
-                Dock = DockStyle.Top
-            };
-
-            var textBox = new TextBox
-            {
-                Left = isMultiline ? 50 : 4,
-                Top = isMultiline ? 50 : textLabel.Height + 4,
-                Multiline = isMultiline,
-                Dock = isMultiline ? DockStyle.Fill : DockStyle.None,
-                Width = prompt.Width - 24,
-                Anchor = isMultiline ? AnchorStyles.Left | AnchorStyles.Top : AnchorStyles.Left | AnchorStyles.Right
-            };
-
-            var confirmationButton = new Button
-            {
-                Text = @"OK",
-                Cursor = Cursors.Hand,
-                DialogResult = DialogResult.OK,
-                Dock = DockStyle.Bottom,
-            };
-
-            var cancelButton = new Button
-            {
-                Text = @"Cancel",
-                Cursor = Cursors.Hand,
-                DialogResult = DialogResult.Cancel,
-                Dock = DockStyle.Bottom,
-            };
-
-            confirmationButton.Click += (sender, e) =>
-            {
-                prompt.Close();
-            };
-
-            cancelButton.Click += (sender, e) =>
-            {
-                prompt.Close();
-            };
-
-            prompt.Controls.Add(textBox);
-            prompt.Controls.Add(confirmationButton);
-            prompt.Controls.Add(cancelButton);
-            prompt.Controls.Add(textLabel);
-
-            return prompt.ShowDialog() == DialogResult.OK ? textBox.Text : string.Empty;
-        }
+        
 
         private void coverArtButton1_Click(object sender, EventArgs e)
         {
@@ -1100,6 +1012,43 @@ namespace MvsxPackBuilder
             }
         }
 
+        // got lazy, slightly modified from https://stackoverflow.com/questions/1922040/how-to-resize-an-image-c-sharp
+        public void ExportResizedImageKeepAspectRatio(int expectedWidth, int expectedHeight, string inputPath, string outputPath)
+        {
+            if (!File.Exists(inputPath))
+            {
+                return;
+            }
 
+            var image = System.Drawing.Image.FromFile(inputPath);
+
+            // if the image is the same size already, then just copy
+            if(image.Width == expectedWidth && image.Height == expectedHeight)
+            {
+                File.Copy(inputPath, outputPath, true);
+                image.Dispose();
+                return;
+            }
+
+            // different size, resize
+            double ratioX = (double)expectedWidth / image.Width;
+            double ratioY = (double)expectedHeight / image.Height;
+            double ratio = Math.Min(ratioX, ratioY);
+            int newWidth = (int)(image.Width * ratio);
+            int newHeight = (int)(image.Height * ratio);
+            Bitmap newImage = new Bitmap(expectedWidth, expectedHeight);
+            Graphics thumbGraph = Graphics.FromImage(newImage);
+
+            thumbGraph.CompositingQuality = CompositingQuality.HighQuality;
+            thumbGraph.SmoothingMode = SmoothingMode.HighQuality;
+
+            int offsetX = (newWidth - expectedWidth) / 2;
+            int offsetY = (newHeight - expectedHeight) / 2;
+
+            thumbGraph.DrawImage(image, -offsetX, -offsetY, newWidth, newHeight);
+            image.Dispose();
+
+            newImage.Save(outputPath, System.Drawing.Imaging.ImageFormat.Png);
+        }
     }
 }
