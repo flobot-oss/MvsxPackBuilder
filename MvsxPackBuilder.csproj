@@ -7,7 +7,7 @@
     <StartupObject>MvsxPackBuilder.Program</StartupObject>
     <Version>0.9.3</Version>
     <RepositoryUrl>https://github.com/flobot-oss/MvsxPackBuilder</RepositoryUrl>
-    <ApplicationIcon></ApplicationIcon>
+    <ApplicationIcon>Resources\HyloIcon.ico</ApplicationIcon>
     <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
