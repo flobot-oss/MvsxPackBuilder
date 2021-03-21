@@ -100,6 +100,10 @@ namespace MvsxPackBuilder
 
         private string RomdatPath = Path.Combine(@"data", @"fba_romdat");
         private string PlaceholderCoverArtPath = Path.Combine("data","default_cover.png");
+        private string PlaceholderBackgroundPath = Path.Combine("data", "default_bg.png");
+        private string PlaceholderIndicatorPath = Path.Combine("data", "default_indicator.png");
+        private string ImageMaskPath = Path.Combine("data", "image_mask.png");
+
         private FBA FbaRomset = new FBA();
         private Hylo HyloHack = new Hylo();
 
@@ -659,6 +663,81 @@ namespace MvsxPackBuilder
             {
                 Hylo.Category category = HyloHack.Categories[categoryIndex];
 
+                #region Process Font
+                // create the folder for the font
+                string CategoryFolder = Path.Combine(Hylo.GetLocalPath(targetFolder), category.FolderName);
+                if (!Directory.Exists(CategoryFolder))
+                {
+                    Directory.CreateDirectory(CategoryFolder);
+                }
+
+                // copy default font if it does not exists
+                string fontPath = Path.Combine(CategoryFolder, Hylo.DefaultFontName);
+                if(!File.Exists(fontPath))
+                {
+                    // get the default installed font from english
+                    string defaultEnglishFontPath = Path.Combine(Hylo.GetLocalPath(Settings.HyloXFolder), Hylo.EnglishFolder, Hylo.DefaultFontName);
+                    File.Copy(defaultEnglishFontPath, fontPath);
+                }
+                #endregion
+
+                #region Process Category Background
+                // process the background
+                {
+                    string backgroundFolder = Hylo.GetBackgroundPath(targetFolder);
+
+                    // make sure the directory exists
+                    if (!Directory.Exists(backgroundFolder))
+                    {
+                        Directory.CreateDirectory(backgroundFolder);
+                    }
+
+                    string targetBackgroundFilename = Path.Combine(backgroundFolder, string.Format(Hylo.BackgroundImageFormat, categoryIndex));
+
+                    if (!string.IsNullOrEmpty(category.CustomBackgroundPath))
+                    {
+                        if (targetBackgroundFilename != category.CustomBackgroundPath)
+                        {
+                            ExportThumbnail(1280, 1024, category.CustomBackgroundPath, targetBackgroundFilename);
+                        }
+                    }
+
+                    if (!File.Exists(targetBackgroundFilename))
+                    {
+                        // copy the placeholder one from the data folder
+                        File.Copy(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), PlaceholderBackgroundPath), targetBackgroundFilename);
+                    }
+                }
+                #endregion
+
+                #region Process Indicator
+                {
+                    string indicatorFolder = Path.Combine(Hylo.GetIndicatorPath(targetFolder), string.Format(Hylo.IndicatorFolderFormat, categoryIndex));
+
+                    // make sure the directory exists
+                    if (!Directory.Exists(indicatorFolder))
+                    {
+                        Directory.CreateDirectory(indicatorFolder);
+                    }
+
+                    string targetIndicatorFilename = Path.Combine(indicatorFolder, Hylo.IndicatorImage);
+
+                    if (!string.IsNullOrEmpty(category.CustomIndicatorPath))
+                    {
+                        if (targetIndicatorFilename != category.CustomIndicatorPath)
+                        {
+                            ExportThumbnail(286, 344, category.CustomIndicatorPath, targetIndicatorFilename);
+                        }
+                    }
+
+                    if (!File.Exists(targetIndicatorFilename))
+                    {
+                        // copy the placeholder one from the data folder
+                        File.Copy(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), PlaceholderIndicatorPath), targetIndicatorFilename);
+                    }
+                }
+                #endregion
+
                 // TODO: make sure that each category is valid, i.e has a correctly named BG, language folder with a font, etc
                 for (Int32 gameIndex = 0; gameIndex < category.Entries.Count; ++gameIndex)
                 {
@@ -687,7 +766,7 @@ namespace MvsxPackBuilder
                         {
                             if (targetCoverArtFilename != entry.CustomCoverPath)
                             {
-                                ExportThumbnail(pictureBox1.Width, pictureBox1.Height, entry.CustomCoverPath, targetCoverArtFilename);
+                                ExportThumbnail(286, 321, entry.CustomCoverPath, targetCoverArtFilename);
                             }
                         }
 

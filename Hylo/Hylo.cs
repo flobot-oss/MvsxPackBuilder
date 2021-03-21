@@ -33,6 +33,9 @@ namespace MvsxPackBuilder
                 set;
             }
 
+            public string CustomBackgroundPath = "";
+            public string CustomIndicatorPath = "";
+
             public string DisplayNameWithCount
             {
                 get { return string.Format("{0:s} ({1:d})", DisplayName, Entries.Count); }
@@ -76,11 +79,29 @@ namespace MvsxPackBuilder
 
         static public string EnglishFolder = @"English";
 
+        // the image folder to put the category background into
+        static public string ImageFolder = @"image";
+
+        // the name format the background needs to be in.
+        static public string BackgroundImageFormat = @"global_bg_{0}.png";
+        static public string IndicatorFolder = Path.Combine(ImageFolder, @"main");
+        static public string IndicatorFolderFormat = @"game_focus{0}";
+        static public string IndicatorImage = @"0.png";
 
         // helper function
         static public string GetCoverArtPath(string HyloPath)
         {
             return Path.Combine(HyloPath, RootPath, CoverArtFolder);
+        }
+
+        static public string GetBackgroundPath(string HyloPath)
+        {
+            return Path.Combine(HyloPath, RootPath, ImageFolder);
+        }
+
+        static public string GetIndicatorPath(string HyloPath)
+        {
+            return Path.Combine(Path.Combine(HyloPath, RootPath, IndicatorFolder));
         }
 
         static public string GetRomPath(string HyloPath)

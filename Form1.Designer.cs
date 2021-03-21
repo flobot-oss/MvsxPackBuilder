@@ -220,7 +220,6 @@ namespace MvsxPackBuilder
             // 
             // RemoveCategoryButton
             // 
-            this.RemoveCategoryButton.Enabled = false;
             this.RemoveCategoryButton.Image = ((System.Drawing.Image)(resources.GetObject("RemoveCategoryButton.Image")));
             this.RemoveCategoryButton.Location = new System.Drawing.Point(476, 13);
             this.RemoveCategoryButton.Name = "RemoveCategoryButton";
@@ -231,7 +230,6 @@ namespace MvsxPackBuilder
             // 
             // AddCategoryButton
             // 
-            this.AddCategoryButton.Enabled = false;
             this.AddCategoryButton.Image = ((System.Drawing.Image)(resources.GetObject("AddCategoryButton.Image")));
             this.AddCategoryButton.Location = new System.Drawing.Point(438, 13);
             this.AddCategoryButton.Name = "AddCategoryButton";
