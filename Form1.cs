@@ -908,53 +908,7 @@ namespace MvsxPackBuilder
             newImage.Save(outputPath, System.Drawing.Imaging.ImageFormat.Png);
         }
 
-        private void AddCategoryButton_Click(object sender, EventArgs e)
-        {
-            string result = ShowInputDialog("Please enter the new category name", "New Category");
-
-            if(!string.IsNullOrEmpty(result))
-            {
-                Hylo.Category newCategory = new Hylo.Category();
-                newCategory.FolderName = string.Format("Cat{0:d}", HyloHack.Categories.Count);
-                newCategory.DisplayName = result;
-
-                HyloHack.Categories.Add(newCategory);
-
-                HylostickGameIniComboBox.DataSource = null;
-                HylostickGameIniComboBox.DataSource = HyloHack.Categories;
-                //HylostickGameIniComboBox.DisplayMember = "DisplayName";
-                HylostickGameIniComboBox.DisplayMember = "DisplayNameWithCount";
-                HylostickGameIniComboBox.SelectedIndex = HyloHack.Categories.Count - 1;
-            }
-        }
-
-        private void RemoveCategoryButton_Click(object sender, EventArgs e)
-        {
-            if (HylostickGameIniComboBox.SelectedItem != null)
-            {
-                Hylo.Category currentCategory = (Hylo.Category)HylostickGameIniComboBox.SelectedItem;
-
-                // we cannot remove the first category, that is a big nono
-                if (HylostickGameIniComboBox.SelectedIndex == 0)
-                {
-                    MessageBox.Show(string.Format("You cannot remove the first category {0:s}", currentCategory.DisplayName), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
-                DialogResult dialogResult = MessageBox.Show(string.Format("Do you want to remove the category {0:s}", currentCategory.DisplayName), "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                if (dialogResult == DialogResult.Yes)
-                {
-                    // do work
-                    HyloHack.Categories.Remove(currentCategory);
-
-                    HylostickGameIniComboBox.DataSource = null;
-                    HylostickGameIniComboBox.DataSource = HyloHack.Categories;
-                    //HylostickGameIniComboBox.DisplayMember = "DisplayName";
-                    HylostickGameIniComboBox.DisplayMember = "DisplayNameWithCount";
-                    HylostickGameIniComboBox.SelectedIndex = HyloHack.Categories.Count - 1;
-                }
-            }
-        }
+       
 
         // TODO: replace this is crap
         public string ShowInputDialog(string text, string caption, bool isMultiline = false, int formWidth = 300, int formHeight = 208)
@@ -1070,7 +1024,82 @@ namespace MvsxPackBuilder
 
         private void CategorySettingButton1_Click(object sender, EventArgs e)
         {
+            Hylo.Category SelectedCategory = (Hylo.Category)HylostickGameIniComboBox.SelectedItem;
+            Int32 SelectedCateoryIndex = HylostickGameIniComboBox.SelectedIndex;
 
+            CategoryEditor frm = new CategoryEditor();
+            DialogResult result = frm.ShowDialog(string.Format("Edit Category {0}", SelectedCategory.DisplayName), SelectedCategory);
+
+            if(result == DialogResult.OK)
+            {
+                // refresh the combo box
+                HylostickGameIniComboBox.DataSource = null;
+                if (HyloHack.Categories.Count > 0)
+                {
+                    HylostickGameIniComboBox.DataSource = HyloHack.Categories;
+                    HylostickGameIniComboBox.DisplayMember = "DisplayNameWithCount";
+                    HylostickGameIniComboBox.SelectedIndex = SelectedCateoryIndex;
+                }
+            }
         }
+
+        private void AddCategoryButton_Click(object sender, EventArgs e)
+        {
+            Hylo.Category newCategory = new Hylo.Category();
+            newCategory.FolderName = string.Format("Cat{0:d}", HyloHack.Categories.Count);
+            newCategory.DisplayName = "Untitled";
+            newCategory.CustomBackgroundPath = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), PlaceholderBackgroundPath);
+            newCategory.CustomIndicatorPath = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), PlaceholderIndicatorPath);
+
+            CategoryEditor frm = new CategoryEditor();
+            DialogResult result = frm.ShowDialog(string.Format("Please enter the new category name"), newCategory);
+
+            if(result == DialogResult.OK)
+            {
+                // add to the list
+                HyloHack.Categories.Add(newCategory);
+
+                // refresh the combo box
+                HylostickGameIniComboBox.DataSource = null;
+                if (HyloHack.Categories.Count > 0)
+                {
+                    HylostickGameIniComboBox.DataSource = HyloHack.Categories;
+                    HylostickGameIniComboBox.DisplayMember = "DisplayNameWithCount";
+                    HylostickGameIniComboBox.SelectedIndex = HyloHack.Categories.Count - 1;
+                }
+            }
+        }
+
+        private void RemoveCategoryButton_Click(object sender, EventArgs e)
+        {
+            if (HylostickGameIniComboBox.SelectedItem != null)
+            {
+                Hylo.Category currentCategory = (Hylo.Category)HylostickGameIniComboBox.SelectedItem;
+
+                // we cannot remove the first category, that is a big nono
+                if (HylostickGameIniComboBox.SelectedIndex == 0)
+                {
+                    MessageBox.Show(string.Format("You cannot remove the first category {0:s}", currentCategory.DisplayName), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                DialogResult dialogResult = MessageBox.Show(string.Format("Do you want to remove the category {0:s}", currentCategory.DisplayName), "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    // remove from the list.
+                    HyloHack.Categories.Remove(currentCategory);
+
+                    HylostickGameIniComboBox.DataSource = null;
+                    if (HyloHack.Categories.Count > 0)
+                    {
+                        HylostickGameIniComboBox.DataSource = HyloHack.Categories;
+                        HylostickGameIniComboBox.DisplayMember = "DisplayNameWithCount";
+                        HylostickGameIniComboBox.SelectedIndex = HyloHack.Categories.Count - 1;
+                    }
+                }
+            }
+        }
+
+
     }
 }

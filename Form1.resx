@@ -61,7 +61,7 @@
   <data name="CategorySettingButton1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAARJJREFUOE+d071KA0EUhuEloEETQzAXZmOb5CrsFNJIELQR8U5sBAmEgFb2ioIS
+        vAAADrwBlbxySQAAARJJREFUOE+d071KA0EUhuEloEETQzAXZmOb5CrsFNJIELQR8U5sBAmEgFb2ioIS
         iIU/IBaKjXm/cM4we1YM+MHDDmfODjP7U/yRQ/yYIxWWZR07dl3FCL7AGGvYwJ5dS2ngAmq+xZONc894
         sLEWbCJlF/GGZbSTFG3pHrHp28S6ekvHWMEM3vCBHuqmbzWf1xH1nBbZxxl8UrqIUS3vOccQpaJ8Ia2e
         RTXNxf5K4RM6Uoxqmov9xQkus4JsI0a1vGeCYyyiB6X37JNv2ELNaKyaz79CH1yKvrIbeIN7N7H+iBZS
@@ -72,14 +72,14 @@
   <data name="RemoveCategoryButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAEZJREFUWEft0jEKACAIQFEP0AE6akM3byhdQ8EpG/6Dv4SgQwIAwG+aNpLNK2/G
+        vAAADrwBlbxySQAAAEZJREFUWEft0jEKACAIQFEP0AE6akM3byhdQ8EpG/6Dv4SgQwIAwG+aNpLNK2/G
         y3aEurYTreSbl+0IcUD5AeWfEACAx0QOhrl3EVo/lwUAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="AddCategoryButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAHNJREFUWEftlMEJgDAQBFOABViqhdmdD735yXJqHnJB2YX5LJJMQLY5X80UzAJd
+        vAAADrwBlbxySQAAAHNJREFUWEftlMEJgDAQBFOABViqhdmdD735yXJqHnJB2YX5LJJMQLY5X80UzAJd
         WZZgF+jKYgELWOC/AqwZBz2xBptAl32r3C4mk6ovy+DCni6DOy5jgeECw3/C3nCQvoyuLBawgAUswJox
         qWdeWTinOK0djKjVgbCkDsoAAAAASUVORK5CYII=
 </value>
