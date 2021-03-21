@@ -4,25 +4,17 @@
 ![image](docs/mvsxpackbuilder.png)
 
 ## Installation
-Simply unzip a release somewhere in your computer.
+Simply unzip a release somewhere in your computer.  
+You can find pre-compiled binaries here: https://github.com/flobot-oss/MvsxPackBuilder/releases
 
 ## Usage
 Using the app is straightforward, the left panel is your FBA romset, the right panel is your HyloX game list.
 
-You can add a game by right-clicking on an FBA game to add it to the HyloX game list.  
-You can remove a game by right-clicking on a game in the HyloX game list.
+### Setting up the HyloX path
+The first thing to do it point the tool toward you MVSXh folder.  
+![image](docs/Open_MVSXh_folder.png)
 
-Using the search field, you can quickly filter the games in the dataset.
-
-Once you are happy with your game list, you can export it to your MVSXh folder.
-
-The export process works as follow:
-- Update the gamesX.ini 
-- Copy the roms and dependencies (parent roms) to the correct output folder.
-- Copy and resize the cover art to the correct output folder. 
-
-MVSX Pack Builder does not delete any file in the HyloX installation, so it should be relatively safe.  
-I am not responsible if this brick your MVSX, USE AT YOUR OWN RISK!
+Once you have selected a valid installation, the games will appear in the right-hand panel.
 
 ### Setting up the FBA romset path
 
@@ -40,10 +32,36 @@ Games names that are displayed with a strikeout indicate that the rom is missing
 Games name that have a strikeout and highlighted red indicate that the rom is from an incompatible FBA romset. (this feature is currently disabled)  
 You can hover the game name for more information about the errors.
 
-### Setting up the HyloX path
+### Adding/Removing games
+You can add a game by right-clicking on an FBA game to add it to the HyloX game list.  
+![image](docs/add_game.png)
 
-You need to specify where your HyloX install is located using the "Open MVSX Hack Folder" under the file menu.  
-Once you have selected a valid installation, the games will appear in the right-hand panel.
+You can remove a game by right-clicking on a game in the HyloX game list.  
+![image](docs/remove_game.png)
+
+### Game Seach
+Using the search field, you can quickly filter the games in the dataset.  
+![image](docs/search_filter.png)
+
+### Category Management
+You can edit/add/remove categories to setup their background as well as indicator images.  
+![image](docs/category_edit.png)
+
+### Export
+Once you are happy with your game list, you can export it to your MVSXh folder.  
+![image](docs/export.png)
+
+The export process works as follow:
+- Update the lang_array.ini
+- Copy and resize relevant category background, indicator and fonts to the correct output folder.
+- Update the gamesX.ini 
+- Copy the roms and dependencies (parent roms) to the correct output folder.
+- Copy and resize the cover art to the correct output folder. 
+
+> Depending on the number of games to export, the process may take a few minutes to complete.
+
+MVSX Pack Builder does not delete any file in the HyloX installation, so it should be relatively safe.  
+I am not responsible if this brick your MVSX, USE AT YOUR OWN RISK!
 
 ## Frequently Asked Questions
 - Where do I find the roms?
@@ -60,10 +78,10 @@ Once you have selected a valid installation, the games will appear in the right-
     - No idea, the MVSX hardware is not particularly powerful and the FBA version used by HyloX has issues with certain games.
 - Are all the games in the FBA Romset playable?
     - No, only a limited subset actually works, NEOGEO / CPS works well, anything else is touch and go.
-  
+
 ## TODO
 - [x] Publish initial version
-- [ ] Improve HyloX categories management
+- [x] Improve HyloX categories management
 - [ ] Add sorting options
 - [ ] Finish FBA roms CRC validation
 - [ ] Add option to hide "unavailable" games in the FBA list
