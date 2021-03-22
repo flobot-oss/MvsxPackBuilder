@@ -13,8 +13,10 @@ Using the app is straightforward, the left panel is your FBA romset, the right p
 ### Setting up the HyloX path
 The first thing to do it point the tool toward you MVSXh folder.  
 ![image](docs/Open_MVSXh_folder.png)
+![image](docs/mvsxh_path.png)
 
 Once you have selected a valid installation, the games will appear in the right-hand panel.
+![image](docs/hylostick_found.png)
 
 ### Setting up the FBA romset path
 
