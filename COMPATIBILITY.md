@@ -43,60 +43,60 @@ The game status are as follow:
 | Aero Fighters 3 / Sonic Wings 3 | sonicwi3 | Video System Co. | ![GREAT](docs/compat/great_small.png) |  |
 | After Burner II | aburner2 | Sega | ![BAD](docs/compat/bad_small.png) |  |
 | Agent Super Bond (scobra hardware) [Bad Colours] | superbon | Signaton USA | ![OK](docs/compat/ok_small.png) | bad colours |
-| Aggressors of Dark Kombat / Tsuukai GANGAN Koushinkyoku (ADM-008)(ADH-008) | aodk | ADK / SNK |  |  |
-| Agress | agress | Palco |  |  |
-| Ah Eikou no Koshien (Japan) | koshien | Taito Corporation |  |  |
-| Air Assault (World) | airass | Irem |  |  |
-| Air Attack (set 1) | airattck | Comad |  |  |
-| Air Buster: Trouble Specialty Raid Unit (World) | airbustr | Kaneko (Namco license) |  |  |
-| Air Duel (World, M82-A-A + M82-B-A) | airduel | Irem |  |  |
-| Air Gallet (Europe) | agallet | BanPresto / Gazelle |  |  |
-| Airwolf | airwolf | Kyugo |  |  |
-| Ajax | ajax | Konami |  |  |
-| Alcon (US) | alcon | Toaplan / Taito America Corp. |  |  |
-| Alex Kidd: The Lost Stars (set 2, unprotected) | alexkidd | Sega |  |  |
-| Ali Baba and 40 Thieves | alibaba | Sega |  |  |
-| Alien Challenge (World) [Imperfect sound] | aliencha | IGS |  |  |
-| Alien Invaders [preliminary sound] | alinvade | Forbes? |  |  |
-| Alien Sector | aliensec | Namco |  |  |
-| Alien Storm (set 4, World, 2 Players, FD1094 317-0154) | astorm | Sega |  |  |
-| Alien Syndrome (set 4, System 16B, unprotected) | aliensyn | Sega |  |  |
-| Alien vs Predator (940520 Euro) | avsp | Capcom |  |  |
-| Aliens (World set 1) | aliens | Konami |  |  |
-| Alligator Hunt (World, protected) | aligator | Gaelco |  |  |
-| Alpha Fighter / Head On [No sound] | alphaho | Data East Corporation |  |  |
-| Alpha Mission II / ASO II - Last Guardian (NGM-007)(NGH-007) | alpham2 | SNK |  |  |
-| Altered Beast (set 8, 8751 317-0078) | altbeast | Sega |  |  |
-| Ambush | ambush | Tecfri |  |  |
-| American Horseshoes (US) | horshoes | Taito America Corporation |  |  |
-| American Speedway (set 1) | amspdwy | Enerdyne Technologies Inc. |  |  |
-| Amidar | amidar | Konami |  |  |
-| Andro Dunos (NGM-049)(NGH-049) | androdun | Visco |  |  |
-| Android (prototype, later build) | androidp | Nasco |  |  |
-| Angel Kids (Japan) | angelkds | Sega / Nasco? |  |  |
-| Angler Dangler (DECO Cassette) (US) | cadanglr | Data East Corporation |  |  |
-| Anteater | anteater | Stern (Tago license) |  |  |
-| Appoooh | appoooh | Sanritsu / Sega |  |  |
-| Aquajack (World) | aquajack | Taito Corporation Japan |  |  |
-| Aquarium (US) | aquarium | Excellent System |  |  |
-| Arabian | arabian | Sun Electronics |  |  |
-| Arabian Magic (Ver 1.0O 1992/07/06) | arabianm | Taito Corporation Japan |  |  |
-| Arbalester | arbalest | Seta |  |  |
-| Arcadia (NMK) | arcadian | NMK |  |  |
-| Ark Area | arkarea | UPL |  |  |
-| Arkanoid (World, oldest rev) | arkanoid | Taito Corporation Japan |  |  |
-| Arkanoid - Revenge of DOH (World) | arknoid2 | Taito Corporation Japan |  |  |
-| Arkanoid Returns (Ver 2.02O 1997/02/10) | arkretrn | Taito Corporation |  |  |
-| Arm Wrestling | armwrest | Nintendo |  |  |
-| Armed Formation | armedf | Nichibutsu |  |  |
-| Armed Police Batrider (Europe) (Fri Feb 13 1998) | batrider | Raizing / 8ing |  |  |
-| Armored Car (set 1) | armorcar | Stern |  |  |
-| Armored Warriors (941024 Europe) | armwar | Capcom |  |  |
+| Aggressors of Dark Kombat / Tsuukai GANGAN Koushinkyoku (ADM-008)(ADH-008) | aodk | ADK / SNK | ![GREAT](docs/compat/great_small.png) |  |
+| Agress | agress | Palco | ![OK](docs/compat/ok_small.png) |  |
+| Ah Eikou no Koshien (Japan) | koshien | Taito Corporation | ![GREAT](docs/compat/great_small.png) |  |
+| Air Assault (World) | airass | Irem | ![BAD](docs/compat/bad_small.png) | really slow framerate |
+| Air Attack (set 1) | airattck | Comad | ![GREAT](docs/compat/great_small.png) |  |
+| Air Buster: Trouble Specialty Raid Unit (World) | airbustr | Kaneko (Namco license) | ![GREAT](docs/compat/great_small.png) |  |
+| Air Duel (World, M82-A-A + M82-B-A) | airduel | Irem | ![BAD](docs/compat/bad_small.png) | really slow framerate |
+| Air Gallet (Europe) | agallet | BanPresto / Gazelle | ![GREAT](docs/compat/great_small.png) |  |
+| Airwolf | airwolf | Kyugo | ![GREAT](docs/compat/great_small.png) |  |
+| Ajax | ajax | Konami | ![OK](docs/compat/ok_small.png) | small performance issue |
+| Alcon (US) | alcon | Toaplan / Taito America Corp. | ![GREAT](docs/compat/great_small.png) |  |
+| Alex Kidd: The Lost Stars (set 2, unprotected) | alexkidd | Sega | ![OK](docs/compat/ok_small.png) | some performance issue |
+| Ali Baba and 40 Thieves | alibaba | Sega | ![GREAT](docs/compat/great_small.png) |  |
+| Alien Challenge (World) [Imperfect sound] | aliencha | IGS | ![OK](docs/compat/ok_small.png) | some performance issue |
+| Alien Invaders [preliminary sound] | alinvade | Forbes? | ![OK](docs/compat/ok_small.png) | no sound |
+| Alien Sector | aliensec | Namco | ![GREAT](docs/compat/great_small.png) |  |
+| Alien Storm (set 4, World, 2 Players, FD1094 317-0154) | astorm | Sega | ![OK](docs/compat/ok_small.png) | some performance issue |
+| Alien Syndrome (set 4, System 16B, unprotected) | aliensyn | Sega | ![OK](docs/compat/ok_small.png) | some performance issue |
+| Alien vs Predator (940520 Euro) | avsp | Capcom | ![GREAT](docs/compat/great_small.png) |  |
+| Aliens (World set 1) | aliens | Konami | ![OK](docs/compat/ok_small.png) | small performance issue |
+| Alligator Hunt (World, protected) | aligator | Gaelco | ![GREAT](docs/compat/great_small.png) |  |
+| Alpha Fighter / Head On [No sound] | alphaho | Data East Corporation | ![OK](docs/compat/ok_small.png) | no sound |
+| Alpha Mission II / ASO II - Last Guardian (NGM-007)(NGH-007) | alpham2 | SNK | ![GREAT](docs/compat/great_small.png) |  |
+| Altered Beast (set 8, 8751 317-0078) | altbeast | Sega | ![OK](docs/compat/ok_small.png) | some performance issue |
+| Ambush | ambush | Tecfri | ![OK](docs/compat/ok_small.png) |  |
+| American Horseshoes (US) | horshoes | Taito America Corporation | ![BAD](docs/compat/bad_small.png) | bad input |
+| American Speedway (set 1) | amspdwy | Enerdyne Technologies Inc. | ![BAD](docs/compat/bad_small.png) | bad input |
+| Amidar | amidar | Konami | ![GREAT](docs/compat/great_small.png) |  |
+| Andro Dunos (NGM-049)(NGH-049) | androdun | Visco | ![GREAT](docs/compat/great_small.png) |  |
+| Android (prototype, later build) | androidp | Nasco | ![GREAT](docs/compat/great_small.png) |  |
+| Angel Kids (Japan) | angelkds | Sega / Nasco? | ![BAD](docs/compat/bad_small.png) | bad input |
+| Angler Dangler (DECO Cassette) (US) | cadanglr | Data East Corporation | ![BAD](docs/compat/bad_small.png) |  |
+| Anteater | anteater | Stern (Tago license) | ![GREAT](docs/compat/great_small.png) |  |
+| Appoooh | appoooh | Sanritsu / Sega | ![GREAT](docs/compat/great_small.png) |  |
+| Aquajack (World) | aquajack | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) |  |
+| Aquarium (US) | aquarium | Excellent System | ![GREAT](docs/compat/great_small.png) |  |
+| Arabian | arabian | Sun Electronics | ![GREAT](docs/compat/great_small.png) |  |
+| Arabian Magic (Ver 1.0O 1992/07/06) | arabianm | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) |  |
+| Arbalester | arbalest | Seta | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
+| Arcadia (NMK) | arcadian | NMK | ![BAD](docs/compat/bad_small.png) |  |
+| Ark Area | arkarea | UPL | ![OK](docs/compat/ok_small.png) |  |
+| Arkanoid (World, oldest rev) | arkanoid | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | bad input |
+| Arkanoid - Revenge of DOH (World) | arknoid2 | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | does not boot |
+| Arkanoid Returns (Ver 2.02O 1997/02/10) | arkretrn | Taito Corporation | ![BAD](docs/compat/bad_small.png) | slow framerate |
+| Arm Wrestling | armwrest | Nintendo | ![OK](docs/compat/ok_small.png) |  |
+| Armed Formation | armedf | Nichibutsu | ![GREAT](docs/compat/great_small.png) |  |
+| Armed Police Batrider (Europe) (Fri Feb 13 1998) | batrider | Raizing / 8ing | ![OK](docs/compat/ok_small.png) | small performance issue |
+| Armored Car (set 1) | armorcar | Stern | ![GREAT](docs/compat/great_small.png) |  |
+| Armored Warriors (941024 Europe) | armwar | Capcom | ![GREAT](docs/compat/great_small.png) |  |
 | Art of Fighting / Ryuuko no Ken (NGM-044)(NGH-044) | aof | SNK |  |  |
 | Art of Fighting 2 / Ryuuko no Ken 2 (NGM-056) | aof2 | SNK |  |  |
 | Art of Fighting 3 - The Path of the Warrior / Art of Fighting - Ryuuko no Ken Gaiden | aof3 | SNK |  |  |
 | Ashura Blaster (World) | ashura | Taito Corporation Japan |  |  |
-| ASO - Armored Scrum Object | aso | SNK |  |  |
+| ASO - Armored Scrum Object | aso | SNK | ![BAD](docs/compat/bad_small.png) |  |
 | Assault (Rev B) | assault | Namco |  |  |
 | Asterix (ver EAD) | asterix | Konami |  |  |
 | Astro Fantasia (DECO Cassette) (US) | castfant | Data East Corporation |  |  |
@@ -661,7 +661,7 @@ The game status are as follow:
 | Hasamu (Japan) | hasamu | Irem |  |  |
 | Hatch Catch | htchctch | SemiCom |  |  |
 | Hatris (US) | hatris | Video System Co. |  |  |
-| Haunted Castle (ver. M) | hcastle | Konami |  |  |
+| Haunted Castle (ver. M) | hcastle | Konami | ![GREAT](docs/compat/great_small.png) |  |
 | Hayaoshi Quiz Ouza Ketteisen - The King Of Quiz | hayaosi1 | Jaleco |  |  |
 | Head On (2 players) [No sound] | headon | Gremlin |  |  |
 | Head On 2 [No sound] | headon2 | Sega |  |  |
@@ -825,7 +825,7 @@ The game status are as follow:
 | Legend of Hero Tonma | loht | Irem |  |  |
 | Legend of Makai (World) | lomakai | Jaleco |  |  |
 | Legend of Success Joe / Ashitano Joe Densetsu | legendos | SNK / WAVE |  |  |
-| Legendary Wings (US set 1) | lwings | Capcom |  |  |
+| Legendary Wings (US set 1) | lwings | Capcom | ![GREAT](docs/compat/great_small.png) |  |
 | Legion - Spinner-87 (World ver 2.03) | legion | Nichibutsu |  |  |
 | Lemmings (US prototype) | lemmings | Data East USA |  |  |
 | Lethal Crash Race (set 1) | crshrace | Video System Co. |  |  |
@@ -1287,7 +1287,7 @@ The game status are as follow:
 | Regulus (315-5033, rev. A) | regulus | Sega |  |  |
 | Renegade (US) | renegade | Technos (Taito America license) |  |  |
 | Repulse | repulse | Sega | ![GREAT](docs/compat/great_small.png) |  |
-| Rescue | rescue | Stern |  |  |
+| Rescue | rescue | Stern | ![GREAT](docs/compat/great_small.png) |  |
 | Return of the Invaders | retofinv | Taito Corporation |  |  |
 | Revenger '84 (set 1) | revngr84 | Epos Corporation |  |  |
 | Rezon | rezon | Allumer |  |  |
@@ -1326,7 +1326,7 @@ The game status are as follow:
 | Round-Up | roundup | Taito Corporation (Amenip/Centuri license) |  |  |
 | Route 16 (set 1) | route16 | Tehkan/Sun (Centuri license) |  |  |
 | Rumba Lumber | rumba | Taito |  |  |
-| Rygar (US set 1) | rygar | Tecmo |  |  |
+| Rygar (US set 1) | rygar | Tecmo | ![GREAT](docs/compat/great_small.png) |  |
 | Ryu Jin (Japan) | ryujin | Taito Corporation |  |  |
 | RyuKyu (Japan, FD1094 317-5023) | ryukyu | Success / Sega |  |  |
 | S.P.Y. - Special Project Y (World ver. N) | spy | Konami |  |  |
@@ -1443,7 +1443,7 @@ The game status are as follow:
 | Space Bomber (ver. B) | sbomber | Psikyo |  |  |
 | Space Gun (World) | spacegun | Taito Corporation Japan |  |  |
 | Space Harrier (Rev A, 8751 315-5163A) | sharrier | Sega |  |  |
-| Space Invaders '95: The Attack Of Lunar Loonies (Ver 2.5O 1995/06/14) | spcinv95 | Taito Corporation Japan |  |  |
+| Space Invaders '95: The Attack Of Lunar Loonies (Ver 2.5O 1995/06/14) | spcinv95 | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) |  |
 | Space Invaders / Space Invaders M | invaders | Taito / Midway |  |  |
 | Space Invaders DX (US, v2.1) | spacedx | Taito Corporation |  |  |
 | Space Position (Japan) | spcpostn | Sega / Nasco |  |  |
@@ -1734,7 +1734,7 @@ The game status are as follow:
 | Twinkle | twinkle | SemiCom |  |  |
 | Twinkle Star Sprites | twinspri | ADK |  |  |
 | U.N. Defense Force: Earth Joker (Japan) | earthjkr | Visco |  |  |
-| U.N. Squadron (US) | unsquad | Daipro / Capcom |  |  |
+| U.N. Squadron (US) | unsquad | Daipro / Capcom | ![GREAT](docs/compat/great_small.png) |  |
 | U.S. Championship V'ball (US) | vball | Technos Japan |  |  |
 | U.S. Classic | usclssic | Seta |  |  |
 | Ufo Robo Dangar (4/07/1987) | dangar | Nichibutsu |  |  |
