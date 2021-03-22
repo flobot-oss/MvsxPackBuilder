@@ -250,6 +250,48 @@ namespace MvsxPackBuilder
         Font TreeViewStrikeoutFont;
 
 
+        private void ExportArcadeGameListAsMarkdown(string filename)
+        {
+            using (StreamWriter writer = new StreamWriter(filename))
+            {
+                datafile currentDatFile = FbaRomset.GetDatafileFromPlatorm(FBA.SupportedPlatforms.Arcade);
+
+                writer.WriteLine("# FBA Compatibility");
+                writer.WriteLine("This is the game compatibility list for HyloX FBA.  ");
+                writer.WriteLine("The game status are as follow:");
+                writer.WriteLine("- Bad, game is too slow to be played or enjoyed.");
+                writer.WriteLine("- Ok, game works but may have some small performance or video issues, see notes.");
+                writer.WriteLine("- Great, game is fully playable with good framerate, minor issue.");
+                writer.WriteLine("");
+
+                writer.WriteLine("| Game | Rom | Manufacturer | Status | Notes |");
+                writer.WriteLine("| :--- | :--- | :--- | ---: | :--- |");
+
+                Int32 GameCount = 0;
+                // populate the list view 
+                for (Int32 GameIndex = 0; GameIndex < currentDatFile.game.Length; ++GameIndex)
+                {
+                    game theGame = currentDatFile.game[GameIndex];
+
+                    // ignore all clones.
+                    if (!string.IsNullOrEmpty(theGame.cloneof))
+                        continue;
+
+                    // ignore bios
+                    if (theGame.isbios == gameIsbios.yes)
+                        continue;
+
+                    // | Game | Rom | Manufacturer | Status | Note |
+                    writer.WriteLine("| {0} | {1} | {2} | {3} | {4} |", theGame.description, theGame.name, theGame.manufacturer, "", "");
+                    ++GameCount;
+                }
+
+                writer.WriteLine("Total Unique Games: {0}", GameCount);
+            }
+        }
+
+
+
         public Form1()
         {
             InitializeComponent();
@@ -269,6 +311,10 @@ namespace MvsxPackBuilder
 
             // load all the romdats from the data folder.
             FbaRomset.LoadAllRomdats(RomdatPath);
+
+
+            //ExportArcadeGameListAsMarkdown("COMPATIBILITY.md");
+
 
             // default to arcade?
             CurrentPlatform = FBA.SupportedPlatforms.Arcade;
