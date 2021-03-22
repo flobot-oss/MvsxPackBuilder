@@ -256,6 +256,11 @@ namespace MvsxPackBuilder
 
             this.Icon = Properties.Resources.HyloIcon;
 
+            // disable all the category button until we have loaded a valud HyloX installs
+            this.CategorySettingButton1.Enabled = false;
+            this.AddCategoryButton.Enabled = false;
+            this.RemoveCategoryButton.Enabled = false;
+
             // set the placeholder image
             pictureBox1.ImageLocation = PlaceholderCoverArtPath;
 
@@ -423,6 +428,10 @@ namespace MvsxPackBuilder
             HylostickGameIniComboBox.DataSource = null;
             RootNodeHyloView = null;
             RefreshTreeView(RootNodeHyloView, Hylo_treeView2);
+
+            this.CategorySettingButton1.Enabled = false;
+            this.AddCategoryButton.Enabled = false;
+            this.RemoveCategoryButton.Enabled = false;
         }
 
 
@@ -493,10 +502,14 @@ namespace MvsxPackBuilder
                 if (HyloHack.Categories.Count > 0)
                 {
                     HylostickGameIniComboBox.DataSource = HyloHack.Categories;
-                    //HylostickGameIniComboBox.DisplayMember = "DisplayName";
                     HylostickGameIniComboBox.DisplayMember = "DisplayNameWithCount";
                     HylostickGameIniComboBox.SelectedIndex = 0;
                 }
+
+
+                this.CategorySettingButton1.Enabled = true;
+                this.AddCategoryButton.Enabled = true;
+                this.RemoveCategoryButton.Enabled = true;
             }
         }
 
@@ -939,18 +952,21 @@ namespace MvsxPackBuilder
             Hylo.Category SelectedCategory = (Hylo.Category)HylostickGameIniComboBox.SelectedItem;
             Int32 SelectedCateoryIndex = HylostickGameIniComboBox.SelectedIndex;
 
-            CategoryEditor frm = new CategoryEditor();
-            DialogResult result = frm.ShowDialog(string.Format("Edit Category {0}", SelectedCategory.DisplayName), SelectedCategory);
-
-            if(result == DialogResult.OK)
+            if(SelectedCategory != null)
             {
-                // refresh the combo box
-                HylostickGameIniComboBox.DataSource = null;
-                if (HyloHack.Categories.Count > 0)
+                CategoryEditor frm = new CategoryEditor();
+                DialogResult result = frm.ShowDialog(string.Format("Edit Category {0}", SelectedCategory.DisplayName), SelectedCategory);
+
+                if (result == DialogResult.OK)
                 {
-                    HylostickGameIniComboBox.DataSource = HyloHack.Categories;
-                    HylostickGameIniComboBox.DisplayMember = "DisplayNameWithCount";
-                    HylostickGameIniComboBox.SelectedIndex = SelectedCateoryIndex;
+                    // refresh the combo box
+                    HylostickGameIniComboBox.DataSource = null;
+                    if (HyloHack.Categories.Count > 0)
+                    {
+                        HylostickGameIniComboBox.DataSource = HyloHack.Categories;
+                        HylostickGameIniComboBox.DisplayMember = "DisplayNameWithCount";
+                        HylostickGameIniComboBox.SelectedIndex = SelectedCateoryIndex;
+                    }
                 }
             }
         }
