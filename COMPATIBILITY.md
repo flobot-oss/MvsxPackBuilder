@@ -7,42 +7,42 @@ The game status are as follow:
 
 | Game | Rom | Manufacturer | Status | Notes |
 | :--- | :--- | :--- | :---: | :--- |
-| '88 Games | 88games | Konami | | |
-| '96 Flag Rally | flagrall | unknown |   |  |
-| 1000 Miglia: Great 1000 Miles Rally (94/07/18) | gtmr | Kaneko |  |  |
-| 18 Holes Pro Golf (set 1) | progolf | Data East Corporation |  |  |
-| 1941 - Counter Attack (900227 World) | 1941 | Capcom |  |  |
-| 1942 (Revision B) | 1942 | Capcom |  |  |
-| 1943 Kai: Midway Kaisen (Japan) | 1943kai | Capcom |  |  |
-| 1943: The Battle of Midway (Euro) | 1943 | Capcom |  |  |
-| 1943: The Battle of Midway Mark II (US) | 1943mii | Capcom |  |  |
-| 1944 - the loop master (000620 USA) | 1944 | Capcom / 8ing / Raizing |  |  |
-| 1945k III (newer, OPCX2 PCB) | 1945kiii | Oriental Soft |  |  |
-| 19XX - the war against destiny (951207 USA) | 19xx | Capcom |  |  |
-| 2 On 2 Open Ice Challenge (rev 1.21) | openice | Midway |  |  |
-| 2020 Super Baseball (set 1) | 2020bb | SNK / Pallas |  |  |
-| 3 Count Bout / Fire Suplex (NGM-043)(NGH-043) | 3countb | SNK |  |  |
-| 3X3 Puzzle (Enterprise) | 3x3puzzl | Ace Enterprise |  |  |
-| 4 En Raya (set 1) | 4enraya | IDSA |  |  |
-| 4 Fun in 1 [Bootleg] | 4in1 | Armenia / Food and Fun |  |  |
+| '88 Games | 88games | Konami | ![GREAT](docs/compat/great_small.png) | |
+| '96 Flag Rally | flagrall | unknown | ![GREAT](docs/compat/great_small.png) |  |
+| 1000 Miglia: Great 1000 Miles Rally (94/07/18) | gtmr | Kaneko | ![BAD](docs/compat/bad_small.png) | Unable to insert coins |
+| 18 Holes Pro Golf (set 1) | progolf | Data East Corporation | ![BAD](docs/compat/bad_small.png) |  Unable to insert coins |
+| 1941 - Counter Attack (900227 World) | 1941 | Capcom | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
+| 1942 (Revision B) | 1942 | Capcom | ![OK](docs/compat/ok_small.png) | bad sound |
+| 1943 Kai: Midway Kaisen (Japan) | 1943kai | Capcom | ![GREAT](docs/compat/great_small.png) |  |
+| 1943: The Battle of Midway (Euro) | 1943 | Capcom | ![GREAT](docs/compat/great_small.png) |  |
+| 1943: The Battle of Midway Mark II (US) | 1943mii | Capcom | ![GREAT](docs/compat/great_small.png) |  |
+| 1944 - the loop master (000620 USA) | 1944 | Capcom / 8ing / Raizing | ![GREAT](docs/compat/great_small.png) |  |
+| 1945k III (newer, OPCX2 PCB) | 1945kiii | Oriental Soft | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
+| 19XX - the war against destiny (951207 USA) | 19xx | Capcom | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
+| 2 On 2 Open Ice Challenge (rev 1.21) | openice | Midway | ![BAD](docs/compat/bad_small.png) | does not boot |
+| 2020 Super Baseball (set 1) | 2020bb | SNK / Pallas | ![GREAT](docs/compat/great_small.png) |  |
+| 3 Count Bout / Fire Suplex (NGM-043)(NGH-043) | 3countb | SNK | ![GREAT](docs/compat/great_small.png) |  |
+| 3X3 Puzzle (Enterprise) | 3x3puzzl | Ace Enterprise | ![BAD](docs/compat/bad_small.png) | Unable to insert coins |
+| 4 En Raya (set 1) | 4enraya | IDSA | ![GREAT](docs/compat/great_small.png) |  |
+| 4 Fun in 1 [Bootleg] | 4in1 | Armenia / Food and Fun | ![GREAT](docs/compat/great_small.png) |  |
 | 4 player input test [Demo, 4 player  input test cartridge] | 4play | SNK |  |  |
-| 4-D Warriors (315-5162) | 4dwarrio | Coreland / Sega |  |  |
-| 64th. Street - A Detective Story (World) | 64street | Jaleco |  |  |
-| 7 Ordi (Korea) | 7ordi | Yun Sung |  |  |
-| A.B. Cop (World, FD1094 317-0169b) | abcop | Sega |  |  |
-| A.D. 2083 [Incomplete Sound] | ad2083 | Midcoin |  |  |
-| Ace Attacker (FD1094 317-0059) | aceattac | Sega |  |  |
-| Acrobat Mission | acrobatm | UPL (Taito license) |  |  |
-| Acrobatic Dog-Fight | dogfgt | Technos Japan |  |  |
-| Act-Fancer Cybernetick Hyper Weapon (World revision 3) | actfancr | Data East Corporation |  |  |
-| Action Fighter, FD1089A 317-0018 | afighter | Sega |  |  |
-| Adventure Quiz 2 - Hatena? no Daibouken (Japan 900228) | hatena | Capcom |  |  |
-| Adventure Quiz Capcom World 2 (920611 Japan) | cworld2j | Capcom |  |  |
-| Aero Fighters | aerofgt | Video System Co. |  |  |
-| Aero Fighters 2 / Sonic Wings 2 | sonicwi2 | Video System Co. |  |  |
-| Aero Fighters 3 / Sonic Wings 3 | sonicwi3 | Video System Co. |  |  |
-| After Burner II | aburner2 | Sega |  |  |
-| Agent Super Bond (scobra hardware) [Bad Colours] | superbon | Signaton USA |  |  |
+| 4-D Warriors (315-5162) | 4dwarrio | Coreland / Sega | ![GREAT](docs/compat/great_small.png) |  |
+| 64th. Street - A Detective Story (World) | 64street | Jaleco | ![GREAT](docs/compat/great_small.png) |  |
+| 7 Ordi (Korea) | 7ordi | Yun Sung | ![GREAT](docs/compat/great_small.png) |  |
+| A.B. Cop (World, FD1094 317-0169b) | abcop | Sega | ![BAD](docs/compat/bad_small.png) |  |
+| A.D. 2083 [Incomplete Sound] | ad2083 | Midcoin | ![GREAT](docs/compat/great_small.png) |  |
+| Ace Attacker (FD1094 317-0059) | aceattac | Sega | ![OK](docs/compat/ok_small.png) | broken input? |
+| Acrobat Mission | acrobatm | UPL (Taito license) | ![BAD](docs/compat/bad_small.png) | slow framerate |
+| Acrobatic Dog-Fight | dogfgt | Technos Japan | ![OK](docs/compat/ok_small.png) | small performance issue |
+| Act-Fancer Cybernetick Hyper Weapon (World revision 3) | actfancr | Data East Corporation | ![GREAT](docs/compat/great_small.png) |  |
+| Action Fighter, FD1089A 317-0018 | afighter | Sega | ![GREAT](docs/compat/great_small.png) |  |
+| Adventure Quiz 2 - Hatena? no Daibouken (Japan 900228) | hatena | Capcom | ![GREAT](docs/compat/great_small.png) |  |
+| Adventure Quiz Capcom World 2 (920611 Japan) | cworld2j | Capcom | ![GREAT](docs/compat/great_small.png) |  |
+| Aero Fighters | aerofgt | Video System Co. | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
+| Aero Fighters 2 / Sonic Wings 2 | sonicwi2 | Video System Co. | ![GREAT](docs/compat/great_small.png) |  |
+| Aero Fighters 3 / Sonic Wings 3 | sonicwi3 | Video System Co. | ![GREAT](docs/compat/great_small.png) |  |
+| After Burner II | aburner2 | Sega | ![BAD](docs/compat/bad_small.png) |  |
+| Agent Super Bond (scobra hardware) [Bad Colours] | superbon | Signaton USA | ![OK](docs/compat/ok_small.png) | bad colours |
 | Aggressors of Dark Kombat / Tsuukai GANGAN Koushinkyoku (ADM-008)(ADH-008) | aodk | ADK / SNK |  |  |
 | Agress | agress | Palco |  |  |
 | Ah Eikou no Koshien (Japan) | koshien | Taito Corporation |  |  |
@@ -142,7 +142,7 @@ The game status are as follow:
 | Battle Cross | battlex | Omori Electric Co., Ltd. |  |  |
 | Battle Cruiser M-12 | bcruzm12 | Sigma Enterprises Inc. |  |  |
 | Battle Flip Shot | flipshot | Visco |  |  |
-| Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996) | bgaregga | Raizing / 8ing |  |  |
+| Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996) | bgaregga | Raizing / 8ing | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
 | Battle K-Road | btlkroad | Psikyo |  |  |
 | Battle Lane! Vol. 5 (set 1) | battlane | Technos Japan (Taito license) |  |  |
 | Battle of Atlantis (set 1) | atlantis | Comsoft |  |  |
@@ -1286,7 +1286,7 @@ The game status are as follow:
 | Red Robin | redrobin | Elettronolo |  |  |
 | Regulus (315-5033, rev. A) | regulus | Sega |  |  |
 | Renegade (US) | renegade | Technos (Taito America license) |  |  |
-| Repulse | repulse | Sega |  |  |
+| Repulse | repulse | Sega | ![GREAT](docs/compat/great_small.png) |  |
 | Rescue | rescue | Stern |  |  |
 | Return of the Invaders | retofinv | Taito Corporation |  |  |
 | Revenger '84 (set 1) | revngr84 | Epos Corporation |  |  |
