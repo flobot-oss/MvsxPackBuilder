@@ -92,44 +92,44 @@ The game status are as follow:
 | Armed Police Batrider (Europe) (Fri Feb 13 1998) | batrider | Raizing / 8ing | ![OK](docs/compat/ok_small.png) | small performance issue |
 | Armored Car (set 1) | armorcar | Stern | ![GREAT](docs/compat/great_small.png) |  |
 | Armored Warriors (941024 Europe) | armwar | Capcom | ![GREAT](docs/compat/great_small.png) |  |
-| Art of Fighting / Ryuuko no Ken (NGM-044)(NGH-044) | aof | SNK |  |  |
-| Art of Fighting 2 / Ryuuko no Ken 2 (NGM-056) | aof2 | SNK |  |  |
-| Art of Fighting 3 - The Path of the Warrior / Art of Fighting - Ryuuko no Ken Gaiden | aof3 | SNK |  |  |
-| Ashura Blaster (World) | ashura | Taito Corporation Japan |  |  |
+| Art of Fighting / Ryuuko no Ken (NGM-044)(NGH-044) | aof | SNK | ![GREAT](docs/compat/great_small.png) |  |
+| Art of Fighting 2 / Ryuuko no Ken 2 (NGM-056) | aof2 | SNK | ![GREAT](docs/compat/great_small.png) |  |
+| Art of Fighting 3 - The Path of the Warrior / Art of Fighting - Ryuuko no Ken Gaiden | aof3 | SNK | ![GREAT](docs/compat/great_small.png) |  |
+| Ashura Blaster (World) | ashura | Taito Corporation Japan | ![GREAT](docs/compat/great_small.png) |  |
 | ASO - Armored Scrum Object | aso | SNK | ![BAD](docs/compat/bad_small.png) |  |
-| Assault (Rev B) | assault | Namco |  |  |
-| Asterix (ver EAD) | asterix | Konami |  |  |
+| Assault (Rev B) | assault | Namco | ![BAD](docs/compat/bad_small.png) | bad controls |
+| Asterix (ver EAD) | asterix | Konami | ![OK](docs/compat/ok_small.png) | some performance issue |
 | Astro Fantasia (DECO Cassette) (US) | castfant | Data East Corporation |  |  |
-| Asuka & Asuka (World) | asuka | Taito Corporation |  |  |
-| Asura Blade - Sword of Dynasty (Japan) | asurabld | Fuuki |  |  |
-| Asura Buster - Eternal Warriors (Japan) | asurabus | Fuuki |  |  |
-| Athena | athena | SNK |  |  |
-| Athena no Hatena ? | atehate | Athena |  |  |
-| Atomic Point (Korea) | atomicp | Philco |  |  |
-| Atomic Robo-kid (World, Type-2) | robokid | UPL |  |  |
-| Aurail (set 3, US, unprotected) | aurail | Sega / Westone |  |  |
-| Avengers (US set 1) | avengers | Capcom |  |  |
-| Avengers In Galactic Storm (US) | avengrgs | Data East Corporation |  |  |
-| Avenging Spirit | avspirit | Jaleco |  |  |
-| Aztarac [Vector graphics] | aztarac | Centuri |  |  |
-| Azurian Attack | azurian | Rait Electronics Ltd |  |  |
-| B-Wings (Japan new Ver.) | bwings | Data East Corporation |  |  |
-| B.C. Kid / Bonk's Adventure / Kyukyoku!! PC Genjin | bonkadv | Kaneko |  |  |
-| B.C. Story (set 1) | bcstry | SemiCom |  |  |
-| B.Rap Boys (World) | brapboys | Kaneko |  |  |
-| Back Fire (Tecmo, bootleg) | backfirt | Tecmo |  |  |
-| Back Street Soccer [graphics issues?] | bssoccer | SunA |  |  |
-| Backfire! (set 1) | backfire | Data East Corporation |  |  |
-| Bad Dudes vs. Dragonninja (US) | baddudes | Data East USA |  |  |
-| Bagman [Parent set for working drivers] | bagman | Valadon Automation |  |  |
-| Bakatonosama Mahjong Manyuuki (MOM-002)(MOH-002) | bakatono | Monolith Corp. |  |  |
-| Bakutotsu Kijuutei | bakutotu | Namco |  |  |
-| Bal Cube | balcube | Metro |  |  |
-| Balloon Brothers | ballbros | East Technology |  |  |
-| Bang Bang Ball (v1.05) | bangball | Banpresto / Kunihiko Tashiro+Goodhouse |  |  |
-| Bang Bang Busters (2010 NCI release) [Prototype] | b2b | Visco |  |  |
-| Bang Bead | bangbead | Visco |  |  |
-| Bang! | bang | Gaelco |  |  |
+| Asuka & Asuka (World) | asuka | Taito Corporation | ![OK](docs/compat/ok_small.png) |  |
+| Asura Blade - Sword of Dynasty (Japan) | asurabld | Fuuki | ![BAD](docs/compat/bad_small.png) | slow framerate |
+| Asura Buster - Eternal Warriors (Japan) | asurabus | Fuuki | ![BAD](docs/compat/bad_small.png) | slow framerate |
+| Athena | athena | SNK | ![GREAT](docs/compat/great_small.png) |  |
+| Athena no Hatena ? | atehate | Athena | ![GREAT](docs/compat/great_small.png) |  |
+| Atomic Point (Korea) | atomicp | Philco | ![GREAT](docs/compat/great_small.png) |  |
+| Atomic Robo-kid (World, Type-2) | robokid | UPL | ![GREAT](docs/compat/great_small.png) | Press start+select to pass the dispswitch screen |
+| Aurail (set 3, US, unprotected) | aurail | Sega / Westone | ![GREAT](docs/compat/great_small.png) |  |
+| Avengers (US set 1) | avengers | Capcom | ![GREAT](docs/compat/great_small.png) |  |
+| Avengers In Galactic Storm (US) | avengrgs | Data East Corporation | ![BAD](docs/compat/bad_small.png) |  |
+| Avenging Spirit | avspirit | Jaleco | ![GREAT](docs/compat/great_small.png) |  |
+| Aztarac [Vector graphics] | aztarac | Centuri | ![BAD](docs/compat/bad_small.png) | doesn't boot |
+| Azurian Attack | azurian | Rait Electronics Ltd | ![GREAT](docs/compat/great_small.png) |  |
+| B-Wings (Japan new Ver.) | bwings | Data East Corporation | ![GREAT](docs/compat/great_small.png) |  |
+| B.C. Kid / Bonk's Adventure / Kyukyoku!! PC Genjin | bonkadv | Kaneko | ![BAD](docs/compat/bad_small.png) | cannot insert coins |
+| B.C. Story (set 1) | bcstry | SemiCom | ![GREAT](docs/compat/great_small.png) |  |
+| B.Rap Boys (World) | brapboys | Kaneko | ![GREAT](docs/compat/great_small.png) |  |
+| Back Fire (Tecmo, bootleg) | backfirt | Tecmo | ![OK](docs/compat/ok_small.png)  | odd controls |
+| Back Street Soccer [graphics issues?] | bssoccer | SunA | ![OK](docs/compat/ok_small.png) | some performance issue |
+| Backfire! (set 1) | backfire | Data East Corporation | ![GREAT](docs/compat/great_small.png) |  |
+| Bad Dudes vs. Dragonninja (US) | baddudes | Data East USA | ![BAD](docs/compat/bad_small.png) | slow framerate |
+| Bagman [Parent set for working drivers] | bagman | Valadon Automation | ![BAD](docs/compat/bad_small.png) | doesn't boot |
+| Bakatonosama Mahjong Manyuuki (MOM-002)(MOH-002) | bakatono | Monolith Corp. | ![GREAT](docs/compat/great_small.png) |  |
+| Bakutotsu Kijuutei | bakutotu | Namco | ![OK](docs/compat/ok_small.png) | some performance issue |
+| Bal Cube | balcube | Metro | ![GREAT](docs/compat/great_small.png) |  |
+| Balloon Brothers | ballbros | East Technology | ![BAD](docs/compat/bad_small.png) | cannot insert coins |
+| Bang Bang Ball (v1.05) | bangball | Banpresto / Kunihiko Tashiro+Goodhouse | ![OK](docs/compat/ok_small.png) | some performace issue |
+| Bang Bang Busters (2010 NCI release) [Prototype] | b2b | Visco | ![GREAT](docs/compat/great_small.png) |  |
+| Bang Bead | bangbead | Visco | ![GREAT](docs/compat/great_small.png) |  |
+| Bang! | bang | Gaelco | ![BAD](docs/compat/bad_small.png) | bad controls |
 | Bank Panic | bankp | [Sanritsu] Sega |  |  |
 | Baryon - Future Assault (set 1) | baryon | SemiCom |  |  |
 | Baseball Stars 2 | bstars2 | SNK |  |  |
@@ -190,7 +190,7 @@ The game status are as follow:
 | Blue Hawk | bluehawk | Dooyong |  |  |
 | Blue Print (Midway) | blueprnt | [Zilec Electronics] Bally Midway |  |  |
 | Blue's Journey / Raguy (ALM-001)(ALH-001) | bjourney | Alpha Denshi Co. |  |  |
-| Boardwalk Casino | bwcasino | EPOS Corporation |  |  |
+| Boardwalk Casino | bwcasino | EPOS Corporation | ![OK](docs/compat/ok_small.png) |  |
 | Body Slam (8751 317-0015) | bodyslam | Sega |  |  |
 | Bogey Manor [NULL] | bogeyman | Technos Japan |  |  |
 | Boggy '84 | boggy84 | Kaneko |  |  |
@@ -453,7 +453,7 @@ The game status are as follow:
 | Dunk Shot (Rev C, FD1089 317-0022) | dunkshot | Sega |  |  |
 | Dyger (Korea set 1) | dyger | Philko |  |  |
 | Dyna Gear | dynagear | Sammy |  |  |
-| Dynablaster / Bomber Man | dynablst | Irem (licensed from Hudson Soft) |  |  |
+| Dynablaster / Bomber Man | dynablst | Irem (licensed from Hudson Soft) | ![GREAT](docs/compat/great_small.png) |  |
 | Dynamite Duke (Europe, 03SEP89) | dynduke | Seibu Kaihatsu |  |  |
 | Dynamite Dux (set 2, FD1094 317-0096) | ddux | Sega |  |  |
 | Dynamite League (US) | dleague | Taito America Corporation |  |  |
@@ -480,7 +480,7 @@ The game status are as follow:
 | Excite League (FD1094 317-0079) | exctleag | Sega |  |  |
 | Exed Exes | exedexes | Capcom |  |  |
 | Explorer (DECO Cassette) (US) | cexplore | Data East Corporation |  |  |
-| Explosive Breaker (World) | explbrkr | Kaneko |  |  |
+| Explosive Breaker (World) | explbrkr | Kaneko | ![BAD](docs/compat/bad_small.png) | cannot insert coins |
 | Extermination (World) | extrmatn | Taito Corporation Japan |  |  |
 | Extreme Downhill (v1.5) | extdwnhl | Sammy Industries Japan |  |  |
 | Exzisus (Japan, dedicated) | exzisus | Taito Corporation |  |  |
@@ -561,7 +561,7 @@ The game status are as follow:
 | Galaga '88 | galaga88 | Namco |  |  |
 | Galaga (Namco rev. B) | galaga | Namco |  |  |
 | Galaga Demo (set 1) [Homebrew] | neogalag | Cristiano Bei/www.iocerom.com |  |  |
-| Galaxian (Namco set 1) | galaxian | Namco |  |  |
+| Galaxian (Namco set 1) | galaxian | Namco | ![GREAT](docs/compat/great_small.png) |  |
 | Galaxy Fight - Universal Warriors | galaxyfg | Sunsoft |  |  |
 | Galaxy Force 2 | gforce2 | Sega |  |  |
 | Galaxy Gunners [No Sound.] | galaxygn | Electronic Devices Italy |  |  |
@@ -1131,7 +1131,7 @@ The game status are as follow:
 | Performan (Japan) | perfrman | Toaplan / Data East Corporation |  |  |
 | Peter Pepper's Ice Cream Factory (DECO Cassette) (US) (set 1) | cppicf | Data East Corporation |  |  |
 | Phelios | phelios | Namco |  |  |
-| Phoenix (Amstar) | phoenix | Amstar |  |  |
+| Phoenix (Amstar) | phoenix | Amstar | ![GREAT](docs/compat/great_small.png) |  |
 | Photo Y2K / Real and Fake (V105) | photoy2k | IGS |  |  |
 | Phozon (Japan) | phozon | Namco |  |  |
 | Pinbo (set 1) | pinbo | Jaleco |  |  |
@@ -1424,7 +1424,7 @@ The game status are as follow:
 | Snow Board Championship (Version 2.1) | snowboar | Gaelco |  |  |
 | Snow Bros. - Nick & Tom (set 1) | snowbros | Toaplan |  |  |
 | Snow Bros. 2 - with new elves | snowbro2 | [Toaplan] Hanafram |  |  |
-| Snow Brothers 3 - Magical Adventure [Bootleg] | snowbro3 | bootleg |  |  |
+| Snow Brothers 3 - Magical Adventure [Bootleg] | snowbro3 | bootleg | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
 | Soccer Brawl (NGM-031) | socbrawl | SNK |  |  |
 | Sokonuke Taisen Game (Japan) | sokonuke | Sammy Industries |  |  |
 | Sol Divide - The Sword Of Darkness | soldivid | Psikyo |  |  |
@@ -1501,7 +1501,7 @@ The game status are as follow:
 | Strikers 1945 III (World) / Strikers 1999 (Japan) | s1945iii | Psikyo |  |  |
 | Strikers 1945 Plus | s1945p | Psikyo |  |  |
 | Submarine (Sigma) | sub | Sigma Enterprises Inc. |  |  |
-| Success Joe (World) [Incomplete sound] | scessjoe | Taito Corporation / Wave |  |  |
+| Success Joe (World) [Incomplete sound] | scessjoe | Taito Corporation / Wave | ![OK](docs/compat/ok_small.png) | bad sound |
 | Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021) | sjryuko | White Board |  |  |
 | SunA Quiz 6000 Academy (940620-6) | sunaq | SunA |  |  |
 | Sunset Riders (4 Players ver. EAC) | ssriders | Konami |  |  |
@@ -1696,9 +1696,9 @@ The game status are as follow:
 | Tournament Arkanoid (US) | arkatour | Taito America Corporation (Romstar license) |  |  |
 | Tournament Pro Golf (DECO Cassette) (US) | cprogolf | Data East Corporation |  |  |
 | Toypop | toypop | Namco |  |  |
-| Track & Field | trackfld | Konami |  |  |
+| Track & Field | trackfld | Konami | ![GREAT](docs/compat/great_small.png) |  |
 | Tranquillizer Gun [No sound] | tranqgun | Sega |  |  |
-| Transformer | transfrm | Sega |  |  |
+| Transformer | transfrm | Sega | ![BAD](docs/compat/bad_small.png) | cannot insert coins |
 | Traverse USA / Zippy Race | travrusa | Irem |  |  |
 | Treasure Island (DECO Cassette) (US) (set 1) | ctisland | Data East Corporation |  |  |
 | Treasure of the Caribbean | totc | FACE Corporation / N.C.I - Le Cortex |  |  |
@@ -1747,7 +1747,7 @@ The game status are as follow:
 | Ultraman Club - Tatakae! Ultraman Kyoudai!! | umanclub | Banpresto / Tsuburaya Productions |  |  |
 | Uncle Poo | unclepoo | Diatec |  |  |
 | Undercover Cops (World) | uccops | Irem |  |  |
-| UniWar S | uniwars | Irem |  |  |
+| UniWar S | uniwars | Irem | ![GREAT](docs/compat/great_small.png) |  |
 | unknown Pac-Man gambling game | unkpacg | unknown |  |  |
 | Up'n Down (315-5030) | upndown | Sega |  |  |
 | US AAF Mustang (25th May. 1990) | mustang | UPL |  |  |
@@ -1801,7 +1801,7 @@ The game status are as follow:
 | Wild Fang / Tecmo Knight | wildfang | Tecmo |  |  |
 | Wild West C.O.W.-Boys of Moo Mesa (ver EAB) | moomesa | Konami |  |  |
 | Willow (World) | willow | Capcom |  |  |
-| Wily Tower | wilytowr | Irem |  |  |
+| Wily Tower | wilytowr | Irem | ![BAD](docs/compat/bad_small.png) | rotated display |
 | Windjammers / Flying Power Disc | wjammers | Data East Corporation |  |  |
 | Wing Force (Japan, prototype) | wingforc | Atlus |  |  |
 | Wing Shooting Championship V2.00 | wschamp | Sammy USA Corporation |  |  |
