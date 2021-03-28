@@ -310,45 +310,45 @@ The game status are as follow:
 | Cookie & Bibi (set 1) | cookbib | SemiCom | ![GREAT](docs/compat/great_small.png) |  |
 | Cookie & Bibi 2 (set 1) | cookbib2 | SemiCom | ![GREAT](docs/compat/great_small.png) |  |
 | Cookie & Bibi 3 | cookbib3 | SemiCom | ![GREAT](docs/compat/great_small.png) |  |
-| Cop 01 (set 1) | cop01 | Nichibutsu |  |  |
-| Cosmic Avenger | cavenger | Universal |  |  |
-| Cosmic Cop (World) | cosmccop | Irem |  |  |
-| Cosmo Gang the Video (US) | cosmogng | Namco |  |  |
-| Cosmo Police Galivan (12/26/1985) | galivan | Nichibutsu |  |  |
-| Cotton (set 3, World, FD1094 317-0181a) | cotton | Success / Sega |  |  |
-| Counter Run (NS6201-A 1988.3) [Please use countrunb instead!] | countrun | Nihon System (Sega license) |  |  |
-| Country Club [bad inputs, use fitegolf instead!] | countryc | SNK |  |  |
-| Crayon Shinchan Orato Asobo (Japan) | qcrayon2 | Taito Corporation |  |  |
-| Crazy Balloon (set 1) | crbaloon | Taito Corporation |  |  |
-| Crazy Climber (US set 1) | cclimber | Nichibutsu |  |  |
-| Crazy Climber 2 (Japan) | cclimbr2 | Nichibutsu |  |  |
-| Crazy Fight | crazyfgt | Subsino |  |  |
-| Crazy Kong | ckong | Kyoei / Falcon |  |  |
-| Crime City (World) | crimec | Taito Corporation Japan |  |  |
-| Crime Fighters (World 2 players) | crimfght | Konami |  |  |
-| Cross Pang | crospang | F2 System |  |  |
-| Crossed Swords (ALM-002)(ALH-002) | crsword | Alpha Denshi Co. |  |  |
-| Crossed Swords 2 (bootleg CD to cartridge conversion) | crswd2bl | bootleg (Razoola) |  |  |
-| Crouching Poney Hidden Dragon (DEMO) [Homebrew] | cphd | Le Cortex |  |  |
-| Crude Buster (World FX version) | cbuster | Data East Corporation |  |  |
-| Crush Roller (Kural Samno) | crush | Kural Samno Electric |  |  |
-| Crusher Makochan (Japan) | crusherm | Takumi |  |  |
-| Cuby Bop (location test) | cubybop | Hot-B Co., Ltd. |  |  |
-| Cue Brick (World, version D) | cuebrick | Konami |  |  |
-| Cute Fighter | cutefght | SemiCom |  |  |
-| Cutie Q | cutieq | Namco |  |  |
-| Cybattler | cybattlr | Jaleco |  |  |
-| Cyber Tank (v1.4) | cybertnk | Coreland |  |  |
-| Cyber-Lip (NGM-010) | cyberlip | SNK |  |  |
-| Cyberbots - fullmetal madness (950424 Euro) | cybots | Capcom |  |  |
-| Cyvern (US) | cyvern | Kaneko |  |  |
-| D-Con | dcon | Success |  |  |
-| D. D. Crew (set 4, World, 3 Players, FD1094 317-0190) | ddcrew | Sega |  |  |
-| Dacholer | dacholer | Nichibutsu |  |  |
-| Daioh | daioh | Athena |  |  |
-| Daitoride | daitorid | Metro |  |  |
-| Dambusters (US, set 1) | dambustr | South West Research |  |  |
-| Dan-Ku-Ga (Ver 0.0J 1994/12/13) (Prototype) [Prototype, Missing graphics are normal in this prototype] | dankuga | Taito Corporation |  |  |
+| Cop 01 (set 1) | cop01 | Nichibutsu | ![GREAT](docs/compat/great_small.png) |  |
+| Cosmic Avenger | cavenger | Universal | ![GREAT](docs/compat/great_small.png) |  |
+| Cosmic Cop (World) | cosmccop | Irem | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Cosmo Gang the Video (US) | cosmogng | Namco | ![OK](docs/compat/ok_small.png) | performance issue |
+| Cosmo Police Galivan (12/26/1985) | galivan | Nichibutsu | ![GREAT](docs/compat/great_small.png) |  |
+| Cotton (set 3, World, FD1094 317-0181a) | cotton | Success / Sega | ![GREAT](docs/compat/great_small.png) |  |
+| Counter Run (NS6201-A 1988.3) [Please use countrunb instead!] | countrun | Nihon System (Sega license) | ![BAD](docs/compat/bad_small.png) |  |
+| Country Club [bad inputs, use fitegolf instead!] | countryc | SNK | ![BAD](docs/compat/bad_small.png) |  |
+| Crayon Shinchan Orato Asobo (Japan) | qcrayon2 | Taito Corporation | ![GREAT](docs/compat/great_small.png) |  |
+| Crazy Balloon (set 1) | crbaloon | Taito Corporation | ![GREAT](docs/compat/great_small.png) |  |
+| Crazy Climber (US set 1) | cclimber | Nichibutsu | ![BAD](docs/compat/bad_small.png) | does not boot |
+| Crazy Climber 2 (Japan) | cclimbr2 | Nichibutsu | ![BAD](docs/compat/bad_small.png) | bad controls |
+| Crazy Fight | crazyfgt | Subsino | ![OK](docs/compat/ok_small.png) | odd controls |
+| Crazy Kong | ckong | Kyoei / Falcon | ![OK](docs/compat/ok_small.png) | bad colors? |
+| Crime City (World) | crimec | Taito Corporation Japan | ![GREAT](docs/compat/great_small.png) |  |
+| Crime Fighters (World 2 players) | crimfght | Konami | ![GREAT](docs/compat/great_small.png) |  |
+| Cross Pang | crospang | F2 System | ![GREAT](docs/compat/great_small.png) |  |
+| Crossed Swords (ALM-002)(ALH-002) | crsword | Alpha Denshi Co. | ![GREAT](docs/compat/great_small.png) |  |
+| Crossed Swords 2 (bootleg CD to cartridge conversion) | crswd2bl | bootleg (Razoola) | ![GREAT](docs/compat/great_small.png) |  |
+| Crouching Poney Hidden Dragon (DEMO) [Homebrew] | cphd | Le Cortex | ![BAD](docs/compat/bad_small.png) | does not boot |
+| Crude Buster (World FX version) | cbuster | Data East Corporation | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Crush Roller (Kural Samno) | crush | Kural Samno Electric | ![GREAT](docs/compat/great_small.png) |  |
+| Crusher Makochan (Japan) | crusherm | Takumi | ![BAD](docs/compat/bad_small.png) | unable to insert coins |
+| Cuby Bop (location test) | cubybop | Hot-B Co., Ltd. | ![GREAT](docs/compat/great_small.png) |  |
+| Cue Brick (World, version D) | cuebrick | Konami | ![BAD](docs/compat/bad_small.png)  | cannot insert coins |
+| Cute Fighter | cutefght | SemiCom | ![OK](docs/compat/ok_small.png) | some performance issue |
+| Cutie Q | cutieq | Namco | ![GREAT](docs/compat/great_small.png) |  |
+| Cybattler | cybattlr | Jaleco | ![GREAT](docs/compat/great_small.png) |  |
+| Cyber Tank (v1.4) | cybertnk | Coreland | ![BAD](docs/compat/bad_small.png) | bad controls |
+| Cyber-Lip (NGM-010) | cyberlip | SNK | ![GREAT](docs/compat/great_small.png) |  |
+| Cyberbots - fullmetal madness (950424 Euro) | cybots | Capcom | ![GREAT](docs/compat/great_small.png) |  |
+| Cyvern (US) | cyvern | Kaneko | ![BAD](docs/compat/bad_small.png) | severe performance issue |
+| D-Con | dcon | Success | ![GREAT](docs/compat/great_small.png) |  |
+| D. D. Crew (set 4, World, 3 Players, FD1094 317-0190) | ddcrew | Sega | ![BAD](docs/compat/bad_small.png) | performance issue |
+| Dacholer | dacholer | Nichibutsu | ![GREAT](docs/compat/great_small.png) |  |
+| Daioh | daioh | Athena | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
+| Daitoride | daitorid | Metro | ![BAD](docs/compat/bad_small.png) | severe performance issue |
+| Dambusters (US, set 1) | dambustr | South West Research | ![OK](docs/compat/ok_small.png) | sound issues |
+| Dan-Ku-Ga (Ver 0.0J 1994/12/13) (Prototype) [Prototype, Missing graphics are normal in this prototype] | dankuga | Taito Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Dangerous Seed (Japan) | dangseed | Namco |  |  |
 | Daraku Tenshi - The Fallen Angels | daraku | Psikyo |  |  |
 | Darius (World) | darius | Taito Corporation Japan |  |  |
@@ -575,7 +575,7 @@ The game status are as follow:
 | Games V25.4X | usgames | U.S. Games |  |  |
 | Ganbare Ginkun | ginkun | Tecmo |  |  |
 | Ganbare! Marine Kun (Marine 2K0411 JPN) | ganbare | Capcom |  |  |
-| Gang Busters (set 1) | gbusters | Konami |  |  |
+| Gang Busters (set 1) | gbusters | Konami | ![GREAT](docs/compat/great_small.png) |  |
 | Gang Wars | gangwars | Alpha Denshi Co. |  |  |
 | Ganryu / Musashi Ganryuki | ganryu | Visco |  |  |
 | Gaplus (GP2 rev. B) | gaplus | Namco |  |  |
@@ -595,7 +595,7 @@ The game status are as follow:
 | Ghostlop (prototype) [Prototype] | ghostlop | Data East Corporation |  |  |
 | Ghostmuncher Galaxian (bootleg) [Bootleg] | gmgalax | LAX |  |  |
 | Ghosts'n Goblins (World? set 1) | gng | Capcom |  |  |
-| Ghouls'n Ghosts (World) | ghouls | Capcom |  |  |
+| Ghouls'n Ghosts (World) | ghouls | Capcom | ![GREAT](docs/compat/great_small.png) |  |
 | Ghox (spinner) | ghox | Toaplan |  |  |
 | Giga Wing (990222 USA) | gigawing | Capcom |  |  |
 | Gigandes | gigandes | East Technology |  |  |
@@ -651,7 +651,7 @@ The game status are as follow:
 | Hachoo! | hachoo | Jaleco |  |  |
 | HAL21 | hal21 | SNK |  |  |
 | Hammer Away (prototype) [Prototype] | hamaway | Sega / Santos |  |  |
-| Hammerin' Harry (World) | hharry | Irem |  |  |
+| Hammerin' Harry (World) | hharry | Irem | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Hang-On (rev A) | hangon | Sega |  |  |
 | Hang-On Jr. Rev.B | hangonjr | Sega |  |  |
 | Hangzo (Japan, prototype) [Prototype] | hangzo | Hot-B |  |  |
@@ -714,7 +714,7 @@ The game status are as follow:
 | Invinco / Deep Scan [No sound] | invds | Sega |  |  |
 | Invinco / Head On 2 [No sound] | invho2 | Sega |  |  |
 | Invinco [No sound] | invinco | Sega |  |  |
-| Iron Horse | ironhors | Konami |  |  |
+| Iron Horse | ironhors | Konami | ![GREAT](docs/compat/great_small.png) |  |
 | Itazura Tenshi (Japan) | itaten | Nichibutsu / Alice |  |  |
 | Ixion (prototype) | ixion | Sega |  |  |
 | J. J. Squawkers | jjsquawk | Athena / Able |  |  |
@@ -843,13 +843,13 @@ The game status are as follow:
 | Lock On (Philko) | lockonph | Philco |  |  |
 | Lock'n'Chase | lnc | Data East Corporation |  |  |
 | Lock'n'Chase (DECO Cassette) (US) | clocknch | Data East Corporation |  |  |
-| Loco-Motion | locomotn | Konami (Centuri license) |  |  |
+| Loco-Motion | locomotn | Konami (Centuri license) | ![GREAT](docs/compat/great_small.png) |  |
 | Lode Runner (set 1) | ldrun | Irem (licensed from Broderbund) |  |  |
 | Lode Runner - The Dig Fight (ver. B) | loderndf | Psikyo |  |  |
 | Lode Runner II - The Bungeling Strikes Back | ldrun2 | Irem (licensed from Broderbund) |  |  |
 | Lode Runner III - The Golden Labyrinth | ldrun3 | Irem (licensed from Broderbund) |  |  |
 | Lode Runner IV - Teikoku Karano Dasshutsu | ldrun4 | Irem (licensed from Broderbund) |  |  |
-| Logic Pro (Japan) | logicpro | Deniam |  |  |
+| Logic Pro (Japan) | logicpro | Deniam | ![GREAT](docs/compat/great_small.png) |  |
 | Logic Pro 2 (Japan) | logicpr2 | Deniam |  |  |
 | Lord of Gun (USA) [Imperfect graphics and sound] | lordgun | IGS |  |  |
 | Lost Tomb (Easy) | losttomb | Stern |  |  |
@@ -979,7 +979,7 @@ The game status are as follow:
 | Monster Slider (Japan) | mslider | Visco / Datt Japan |  |  |
 | Monsters World (bootleg of Super Pang) | mstworld | bootleg (TCH) |  |  |
 | Moon Alien Part 2 | moonal2 | Nichibutsu |  |  |
-| Moon Cresta (Nichibutsu) | mooncrst | Nichibutsu |  |  |
+| Moon Cresta (Nichibutsu) | mooncrst | Nichibutsu | ![GREAT](docs/compat/great_small.png) |  |
 | Moon Quasar | moonqsr | Nichibutsu |  |  |
 | Moon Shuttle (US? set 1) [Incomplete Sound] | mshuttle | Nichibutsu |  |  |
 | Moonwar | moonwar | Stern |  |  |
@@ -1630,7 +1630,7 @@ The game status are as follow:
 | The King of Fighters '98 - The Slugfest / King of Fighters '98 - dream match never ends (NGM-2420) | kof98 | SNK |  |  |
 | The King of Fighters '99 - Millennium Battle (NGM-2510) | kof99 | SNK |  |  |
 | The King of Fighters 2000 (NGM-2570) (NGH-2570) | kof2000 | SNK |  |  |
-| The King of Fighters 2001 (NGM-262?) | kof2001 | SNK / Eolith |  |  |
+| The King of Fighters 2001 (NGM-262?) | kof2001 | SNK / Eolith | ![BAD](docs/compat/bad_small.png) | does not boot |
 | The King of Fighters 2002 (NGM-2650)(NGH-2650) | kof2002 | Eolith / Playmore |  |  |
 | The King of Fighters 2003 (Japan, JAMMA PCB) | kf2k3pcb | Playmore / Capcom |  |  |
 | The King of Fighters 2003 (NGM-2710) | kof2003 | SNK Playmore |  |  |
@@ -1728,7 +1728,7 @@ The game status are as follow:
 | Twin Eagle - Revenge Joe's Brother | twineagl | Seta (Taito license) |  |  |
 | Twin Eagle II - The Rescue Mission | twineag2 | Seta |  |  |
 | Twin Falcons | twinfalc | Philko (Poara Enterprises license) |  |  |
-| Twin Hawk (World) | twinhawk | Taito Corporation Japan |  |  |
+| Twin Hawk (World) | twinhawk | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | stuck on dipswitch screen |
 | Twin Qix (Ver 1.0A 1995/01/17) (Prototype) [Prototype] | twinqix | Taito America Corporation |  |  |
 | TwinBee (ROM version) | twinbee | Konami |  |  |
 | Twinkle | twinkle | SemiCom |  |  |
@@ -1766,7 +1766,7 @@ The game status are as follow:
 | Vasara | vasara | Visco |  |  |
 | Vasara 2 (set 1) | vasara2 | Visco |  |  |
 | Vastar (set 1) | vastar | Sesame Japan |  |  |
-| Vendetta (World, 4 Players ver. T) | vendetta | Konami |  |  |
+| Vendetta (World, 4 Players ver. T) | vendetta | Konami | ![OK](docs/compat/ok_small.png) | some performance issue |
 | Victory Road | victroad | SNK |  |  |
 | Video Hustler | hustler | Konami |  |  |
 | Viewpoint | viewpoin | Sammy / Aicom |  |  |
