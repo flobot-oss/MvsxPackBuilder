@@ -349,9 +349,9 @@ The game status are as follow:
 | Daitoride | daitorid | Metro | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Dambusters (US, set 1) | dambustr | South West Research | ![OK](docs/compat/ok_small.png) | sound issues |
 | Dan-Ku-Ga (Ver 0.0J 1994/12/13) (Prototype) [Prototype, Missing graphics are normal in this prototype] | dankuga | Taito Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue |
-| Dangerous Seed (Japan) | dangseed | Namco |  |  |
-| Daraku Tenshi - The Fallen Angels | daraku | Psikyo |  |  |
-| Darius (World) | darius | Taito Corporation Japan |  |  |
+| Dangerous Seed (Japan) | dangseed | Namco | ![GREAT](docs/compat/great_small.png) |  |
+| Daraku Tenshi - The Fallen Angels | daraku | Psikyo | ![BAD](docs/compat/bad_small.png) | severe performance issue. |
+| Darius (World) | darius | Taito Corporation Japan | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio + slow performance |
 | Darius Gaiden - Silver Hawk (Ver 2.5O 1994/09/19) | dariusg | Taito Corporation Japan |  |  |
 | Darius Gaiden - Silver Hawk Extra Version (Ver 2.7J 1995/03/06) (Official Hack) | dariusgx | Taito Corporation |  |  |
 | Darius II (Japan) | darius2 | Taito Corporation |  |  |
@@ -505,7 +505,7 @@ The game status are as follow:
 | Fatal Fury 2 / Garou Densetsu 2 - arata-naru tatakai (NGM-047)(NGH-047) | fatfury2 | SNK |  |  |
 | Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - haruka-naru tatakai (NGM-069)(NGH-069) | fatfury3 | SNK |  |  |
 | Fatal Fury Special / Garou Densetsu Special (set 1)(NGM-058)(NGH-058) | fatfursp | SNK |  |  |
-| Fever SOS (International, ver. 98/09/25) | feversos | Cave / Nihon System inc. |  |  |
+| Fever SOS (International, ver. 98/09/25) | feversos | Cave / Nihon System inc. | ![GREAT](docs/compat/great_small.png) |  |
 | Fight Fever (set 1) | fightfev | Viccom |  |  |
 | Fighter's History (World ver 43-09, DE-0395-1 PCB) | fghthist | Data East Corporation |  |  |
 | Fighting Basketball | fghtbskt | Paradise Co. Ltd. |  |  |
@@ -1044,7 +1044,7 @@ The game status are as follow:
 | NeoGeo 2-Player Tetris [Homebrew] | neotet | Crim/Stephen |  |  |
 | NeoGeo 3D! Demo [Homebrew] | neo3ddmo | Oxygene |  |  |
 | New Fantasia (1995 copyright) | newfant | Comad / New Japan System |  |  |
-| New Rally X | nrallyx | Namco |  |  |
+| New Rally X | nrallyx | Namco | ![GREAT](docs/compat/great_small.png) |  |
 | New Sinbad 7 | newsin7 | ATW USA, Inc. |  |  |
 | News (set 1) | news | Poby / Virus |  |  |
 | NGEM2K (beta 2006-01-18) [Homebrew] | ngem2k | homebrew |  |  |
