@@ -137,7 +137,7 @@ The game status are as follow:
 | Batsugun (set 1) | batsugun | Toaplan | ![OK](docs/compat/ok_small.png) | some performance issue |
 | Battlantis (program code G) | battlnts | Konami | ![GREAT](docs/compat/great_small.png) |  |
 | Battle Bakraid - Unlimited Version (U.S.A.) (Tue Jun 8 1999) | bbakraid | Eighting | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
-| Battle Chopper | bchopper | Irem | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Battle Chopper | bchopper | Irem | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Battle Circuit (970319 Euro) | batcir | Capcom | ![GREAT](docs/compat/great_small.png) |  |
 | Battle Cross | battlex | Omori Electric Co., Ltd. | ![BAD](docs/compat/bad_small.png) | screen orientation |
 | Battle Cruiser M-12 | bcruzm12 | Sigma Enterprises Inc. | ![BAD](docs/compat/bad_small.png) |  |
@@ -149,7 +149,7 @@ The game status are as follow:
 | Battle Shark (World) | bshark | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | bad controls |
 | Bay Route (set 3, World, FD1094 317-0116) | bayroute | Sunsoft / Sega | ![GREAT](docs/compat/great_small.png) |  |
 | Beast Busters (World) | bbusters | SNK | ![BAD](docs/compat/bad_small.png) | bad controls |
-| Bee Storm - DoDonPachi II (V102, World) | ddp2 | IGS | ![BAD](docs/compat/bad_small.png) | slow performance + screen orientation |
+| Bee Storm - DoDonPachi II (V102, World) | ddp2 | IGS | ![BAD](docs/compat/bad_small.png) | severe performance issue + screen orientation |
 | Bells & Whistles (World, version L) | blswhstl | Konami | ![BAD](docs/compat/bad_small.png) | unable to insert coins |
 | Beraboh Man (Japan, Rev C) | berabohm | Namco | ![GREAT](docs/compat/great_small.png) |  |
 | Bermuda Triangle (World?) | bermudat | SNK | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
@@ -160,7 +160,7 @@ The game status are as follow:
 | Big Striker | bigstrik | Jaleco | ![GREAT](docs/compat/great_small.png) |  |
 | Big Twin | bigtwin | Playmark | ![GREAT](docs/compat/great_small.png) |  |
 | Bikkuri Card (Japan) | bikkuric | Peni Soft | ![BAD](docs/compat/bad_small.png) |  |
-| Bio-ship Paladin | bioship | UPL (American Sammy license) | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Bio-ship Paladin | bioship | UPL (American Sammy license) | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Biomechanical Toy (Ver. 1.0.1885) | biomtoy | Gaelco | ![GREAT](docs/compat/great_small.png) |  |
 | Bionic Commando (Euro) | bionicc | Capcom | ![GREAT](docs/compat/great_small.png) |  |
 | Birdie Try (Japan) | birdtry | Data East Corporation | ![OK](docs/compat/ok_small.png) | some performance issue |
@@ -170,7 +170,7 @@ The game status are as follow:
 | Black Hole | blkhole | TDS | ![GREAT](docs/compat/great_small.png) |  |
 | Black Panther | blkpnthr | Konami | ![GREAT](docs/compat/great_small.png) |  |
 | Black Tiger | blktiger | Capcom | ![GREAT](docs/compat/great_small.png) |  |
-| Blade Master (World) | bmaster | Irem | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Blade Master (World) | bmaster | Irem | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Blades of Steel (version T) | bladestl | Konami | ![GREAT](docs/compat/great_small.png) |  |
 | Blandia | blandia | Allumer | ![GREAT](docs/compat/great_small.png) |  |
 | Blast Off (Japan) | blastoff | Namco | ![OK](docs/compat/ok_small.png) | some performance issue |
@@ -200,8 +200,8 @@ The game status are as follow:
 | Bomber Man World / New Dyna Blaster - Global Quest | bbmanw | Irem | ![OK](docs/compat/ok_small.png) | some performance issue |
 | Bombjack Twin (set 1) | bjtwin | NMK | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio |
 | Bongo | bongo | Jetsoft | ![GREAT](docs/compat/great_small.png) |  |
-| Bonze Adventure (World, Newer) | bonzeadv | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | slow performance |
-| Boogie Wings (Euro v1.5, 92.12.07) | boogwing | Data East Corporation | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Bonze Adventure (World, Newer) | bonzeadv | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | severe performance issue |
+| Boogie Wings (Euro v1.5, 92.12.07) | boogwing | Data East Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Borderline [No sound] | brdrline | Sega | ![BAD](docs/compat/bad_small.png) | no sound |
 | Bottom of the Ninth (ver. T) | bottom9 | Konami | ![GREAT](docs/compat/great_small.png) |  |
 | Boulder Dash (DECO Cassette) (US) | cbdash | Data East Corporation |  |  |
@@ -215,11 +215,11 @@ The game status are as follow:
 | Breakers Revenge | breakrev | Visco | ![GREAT](docs/compat/great_small.png) |  |
 | Bubble 2000 | bubl2000 | Afega (Tuning license) | ![GREAT](docs/compat/great_small.png) |  |
 | Bubble Bobble (Japan, Ver 0.1) | bublbobl | Taito Corporation | ![GREAT](docs/compat/great_small.png) |  |
-| Bubble Bobble II (Ver 2.6O 1994/12/16) | bublbob2 | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | slow performance |
-| Bubble Memories: The Story Of Bubble Bobble III (Ver 2.4O 1996/02/15) | bubblem | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Bubble Bobble II (Ver 2.6O 1994/12/16) | bublbob2 | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | severe performance issue |
+| Bubble Memories: The Story Of Bubble Bobble III (Ver 2.4O 1996/02/15) | bubblem | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Bubble Trouble (World, Rev B) | bubbletr | Namco | ![BAD](docs/compat/bad_small.png) | screen orientation |
 | Buccaneers (set 1) | buccanrs | Duintronic | ![GREAT](docs/compat/great_small.png) |  |
-| Bucky O'Hare (ver EAB) | bucky | Konami | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Bucky O'Hare (ver EAB) | bucky | Konami | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Bullet (FD1094 317-0041) | bullet | Sega | ![BAD](docs/compat/bad_small.png) | bad controls |
 | Bullfight (315-5065) | bullfgt | Coreland / Sega | ![GREAT](docs/compat/great_small.png) |  |
 | Burger Time (Data East set 1) | btime | Data East Corporation | ![GREAT](docs/compat/great_small.png) |  |
@@ -228,7 +228,7 @@ The game status are as follow:
 | Burnin' Rubber | brubber | Data East | ![GREAT](docs/compat/great_small.png) |  |
 | Burnin' Rubber (DECO Cassette) (US) (set 1) | cburnrub | Data East Corporation |  |  |
 | Burning Fight (NGM-018)(NGH-018) | burningf | SNK | ![GREAT](docs/compat/great_small.png) |  |
-| Burning Force (Japan, new version (Rev C)) | burnforc | Namco | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Burning Force (Japan, new version (Rev C)) | burnforc | Namco | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Bygone [Imperfect sound] | bygone | Taito Corporation |  ![OK](docs/compat/ok_small.png)  | incorrect sound |
 | Cabal (World, Joystick) | cabal | TAD Corporation | ![GREAT](docs/compat/great_small.png) |  |
 | Cachat (Japan) | cachat | Taito Corporation | ![GREAT](docs/compat/great_small.png) |  |
@@ -245,7 +245,7 @@ The game status are as follow:
 | Capcom Bowling (set 1) | capbowl | Incredible Technologies / Capcom | ![BAD](docs/compat/bad_small.png) | bad controls |
 | Capcom Sports Club (971017 Euro) | csclub | Capcom | ![GREAT](docs/compat/great_small.png) |  |
 | Capcom World (Japan) | cworld | Capcom | ![GREAT](docs/compat/great_small.png) |  |
-| Captain America and The Avengers (Asia Rev 1.4) | captaven | Data East Corporation | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Captain America and The Avengers (Asia Rev 1.4) | captaven | Data East Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Captain Commando (911202 other country) | captcomm | Capcom | ![GREAT](docs/compat/great_small.png) |  |
 | Captain Silver (World) | csilver | Data East Corporation | ![GREAT](docs/compat/great_small.png) |  |
 | Captain Tomaday | ctomaday | Visco | ![GREAT](docs/compat/great_small.png) |  |
@@ -257,7 +257,7 @@ The game status are as follow:
 | Cash Quiz (Type B, Version 5) [Missing graphics due to undumped ROM!] | cashquiz | Zilec-Zenitone | ![BAD](docs/compat/bad_small.png) |  |
 | Catacomb [Bad Colours] | catacomb | MTM Games | ![OK](docs/compat/ok_small.png) | bad colours |
 | Cavelon | cavelon | Jetsoft | ![GREAT](docs/compat/great_small.png) |  |
-| Caveman Ninja (World ver 4) | cninja | Data East Corporation | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Caveman Ninja (World ver 4) | cninja | Data East Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Centipede (revision 4) | centiped | Atari | ![GREAT](docs/compat/great_small.png) |  |
 | Chack'n Pop | chaknpop | Taito Corporation | ![GREAT](docs/compat/great_small.png) |  |
 | Chain Reaction (World, Version 2.2, 1995.09.25) | chainrec | Data East | ![OK](docs/compat/ok_small.png) | some performance issue |
@@ -291,7 +291,7 @@ The game status are as follow:
 | City Bomber (World) | citybomb | Konami | ![GREAT](docs/compat/great_small.png) |  |
 | City Connection (set 1) | citycon | Jaleco | ![GREAT](docs/compat/great_small.png) |  |
 | Clash-Road | clshroad | Wood Place Inc. | ![GREAT](docs/compat/great_small.png) |  |
-| Cleopatra Fortune (Ver 2.1J 1996/09/05) | cleopatr | Taito Corporation | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Cleopatra Fortune (Ver 2.1J 1996/09/05) | cleopatr | Taito Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Cloak & Dagger (rev 5) | cloak | Atari |  |  |
 | Cluster Buster (DECO Cassette) (US) | cgraplop | Data East Corporation |  |  |
 | Clutch Hitter (set 2, US, FD1094 317-0176) | cltchitr | Sega | ![OK](docs/compat/ok_small.png) | some performance issue? |
@@ -301,7 +301,7 @@ The game status are as follow:
 | Combat Hawk | combh | Sega / Sanritsu | ![BAD](docs/compat/bad_small.png) | bad controls |
 | Combat School (joystick) | combatsc | Konami | ![GREAT](docs/compat/great_small.png) |  |
 | Come Back Toto | toto | SoftClub | ![GREAT](docs/compat/great_small.png) |  |
-| Command War - Super Special Battle & War Game (Ver 0.0J) (Prototype) [Prototype] | commandw | Taito Corporation | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Command War - Super Special Battle & War Game (Ver 0.0J) (Prototype) [Prototype] | commandw | Taito Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Commando (Sega) | commsega | Sega | ![GREAT](docs/compat/great_small.png) |  |
 | Commando (World) | commando | Capcom | ![BAD](docs/compat/bad_small.png) | cannot pass dipswitch screen |
 | Congo Bongo | congo | Sega | ![GREAT](docs/compat/great_small.png) |  |
@@ -312,7 +312,7 @@ The game status are as follow:
 | Cookie & Bibi 3 | cookbib3 | SemiCom | ![GREAT](docs/compat/great_small.png) |  |
 | Cop 01 (set 1) | cop01 | Nichibutsu | ![GREAT](docs/compat/great_small.png) |  |
 | Cosmic Avenger | cavenger | Universal | ![GREAT](docs/compat/great_small.png) |  |
-| Cosmic Cop (World) | cosmccop | Irem | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Cosmic Cop (World) | cosmccop | Irem | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Cosmo Gang the Video (US) | cosmogng | Namco | ![OK](docs/compat/ok_small.png) | performance issue |
 | Cosmo Police Galivan (12/26/1985) | galivan | Nichibutsu | ![GREAT](docs/compat/great_small.png) |  |
 | Cotton (set 3, World, FD1094 317-0181a) | cotton | Success / Sega | ![GREAT](docs/compat/great_small.png) |  |
@@ -330,7 +330,7 @@ The game status are as follow:
 | Crossed Swords (ALM-002)(ALH-002) | crsword | Alpha Denshi Co. | ![GREAT](docs/compat/great_small.png) |  |
 | Crossed Swords 2 (bootleg CD to cartridge conversion) | crswd2bl | bootleg (Razoola) | ![GREAT](docs/compat/great_small.png) |  |
 | Crouching Poney Hidden Dragon (DEMO) [Homebrew] | cphd | Le Cortex | ![BAD](docs/compat/bad_small.png) | does not boot |
-| Crude Buster (World FX version) | cbuster | Data East Corporation | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Crude Buster (World FX version) | cbuster | Data East Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Crush Roller (Kural Samno) | crush | Kural Samno Electric | ![GREAT](docs/compat/great_small.png) |  |
 | Crusher Makochan (Japan) | crusherm | Takumi | ![BAD](docs/compat/bad_small.png) | unable to insert coins |
 | Cuby Bop (location test) | cubybop | Hot-B Co., Ltd. | ![GREAT](docs/compat/great_small.png) |  |
@@ -351,7 +351,7 @@ The game status are as follow:
 | Dan-Ku-Ga (Ver 0.0J 1994/12/13) (Prototype) [Prototype, Missing graphics are normal in this prototype] | dankuga | Taito Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Dangerous Seed (Japan) | dangseed | Namco | ![GREAT](docs/compat/great_small.png) |  |
 | Daraku Tenshi - The Fallen Angels | daraku | Psikyo | ![BAD](docs/compat/bad_small.png) | severe performance issue. |
-| Darius (World) | darius | Taito Corporation Japan | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio + slow performance |
+| Darius (World) | darius | Taito Corporation Japan | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio + severe performance issue |
 | Darius Gaiden - Silver Hawk (Ver 2.5O 1994/09/19) | dariusg | Taito Corporation Japan |  |  |
 | Darius Gaiden - Silver Hawk Extra Version (Ver 2.7J 1995/03/06) (Official Hack) | dariusgx | Taito Corporation |  |  |
 | Darius II (Japan) | darius2 | Taito Corporation |  |  |
@@ -431,7 +431,7 @@ The game status are as follow:
 | Dragon Spirit (new version (DS3)) | dspirit | Namco |  |  |
 | Dragon Unit / Castle of Dragon | drgnunit | Seta |  |  |
 | Dragon World 2001 (V100, Japan) [Bad sound?] | dw2001 | IGS (Alta Co., LTD License) |  |  |
-| Dragon World II (V110X, World) | drgw2 | IGS | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Dragon World II (V110X, World) | drgw2 | IGS | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Dragon World Pretty Chance (V101, Japan) [Bad sound?] | dwpc | IGS (Alta Co., LTD License) |  |  |
 | Dragon's Heaven (development board) | dragonsh | Face |  |  |
 | Dragonball Z (rev B) | dbz | Banpresto |  |  |
@@ -1203,7 +1203,7 @@ The game status are as follow:
 | Puzz Loop 2 (010302 Euro) | pzloop2 | Mitchell, distritued by Capcom |  |  |
 | Puzzle Bobble (Japan, B-System) | pbobble | Taito Corporation |  |  |
 | Puzzle Bobble / Bust-A-Move (Neo-Geo) (NGM-083) | pbobblen | Taito |  |  |
-| Puzzle Bobble 2 (Ver 2.3O 1995/07/31) | pbobble2 | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | slow performance |
+| Puzzle Bobble 2 (Ver 2.3O 1995/07/31) | pbobble2 | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo) | pbobbl2n | Taito (SNK license) |  |  |
 | Puzzle Bobble 3 (Ver 2.1O 1996/09/27) | pbobble3 | Taito Corporation |  |  |
 | Puzzle Bobble 4 (Ver 2.04O 1997/12/19) | pbobble4 | Taito Corporation |  |  |
