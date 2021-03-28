@@ -308,8 +308,8 @@ The game status are as follow:
 | Continental Circus (World) | contcirc | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | bad controls |
 | Contra (US / Asia, set 1) | contra | Konami | ![BAD](docs/compat/bad_small.png) | bad colours |
 | Cookie & Bibi (set 1) | cookbib | SemiCom | ![GREAT](docs/compat/great_small.png) |  |
-| Cookie & Bibi 2 (set 1) | cookbib2 | SemiCom |  |  |
-| Cookie & Bibi 3 | cookbib3 | SemiCom |  |  |
+| Cookie & Bibi 2 (set 1) | cookbib2 | SemiCom | ![GREAT](docs/compat/great_small.png) |  |
+| Cookie & Bibi 3 | cookbib3 | SemiCom | ![GREAT](docs/compat/great_small.png) |  |
 | Cop 01 (set 1) | cop01 | Nichibutsu |  |  |
 | Cosmic Avenger | cavenger | Universal |  |  |
 | Cosmic Cop (World) | cosmccop | Irem |  |  |
