@@ -351,31 +351,31 @@ The game status are as follow:
 | Dan-Ku-Ga (Ver 0.0J 1994/12/13) (Prototype) [Prototype, Missing graphics are normal in this prototype] | dankuga | Taito Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Dangerous Seed (Japan) | dangseed | Namco | ![GREAT](docs/compat/great_small.png) |  |
 | Daraku Tenshi - The Fallen Angels | daraku | Psikyo | ![BAD](docs/compat/bad_small.png) | severe performance issue. |
-| Darius (World) | darius | Taito Corporation Japan | ![OK](docs/compat/ok_small.png) | incorrect aspect ratio + severe performance issue |
-| Darius Gaiden - Silver Hawk (Ver 2.5O 1994/09/19) | dariusg | Taito Corporation Japan |  |  |
-| Darius Gaiden - Silver Hawk Extra Version (Ver 2.7J 1995/03/06) (Official Hack) | dariusgx | Taito Corporation |  |  |
-| Darius II (Japan) | darius2 | Taito Corporation |  |  |
-| Dark Planet [Dial doesn't work very well] | darkplnt | Stern |  |  |
-| Dark Seal (World revision 3) | darkseal | Data East Corporation |  |  |
-| Dark Tower | darktowr | Game Room |  |  |
-| Darkstalkers - the night warriors (940705 Euro) | dstlk | Capcom |  |  |
+| Darius (World) | darius | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | incorrect aspect ratio + performance issue |
+| Darius Gaiden - Silver Hawk (Ver 2.5O 1994/09/19) | dariusg | Taito Corporation Japan | ![BAD](docs/compat/bad_small.png) | severe performance issue. |
+| Darius Gaiden - Silver Hawk Extra Version (Ver 2.7J 1995/03/06) (Official Hack) | dariusgx | Taito Corporation | ![BAD](docs/compat/bad_small.png) | severe performance issue. |
+| Darius II (Japan) | darius2 | Taito Corporation | ![BAD](docs/compat/bad_small.png) | incorrect aspect ratio + performance issue |
+| Dark Planet [Dial doesn't work very well] | darkplnt | Stern | ![BAD](docs/compat/bad_small.png) |  |
+| Dark Seal (World revision 3) | darkseal | Data East Corporation | ![BAD](docs/compat/bad_small.png) | cannot insert coins |
+| Dark Tower | darktowr | Game Room | ![OK](docs/compat/ok_small.png) | some performance issue |
+| Darkstalkers - the night warriors (940705 Euro) | dstlk | Capcom | ![GREAT](docs/compat/great_small.png) |  |
 | DarkWing Duck (Intro demo) [Demo, You must use the Universe BIOS and set region to Japan AES] | dwi | Sergi |  |  |
-| Darwin 4078 (Japan) | darwin | Data East Corporation |  |  |
-| Date Quiz Go Go (Korea) | dquizgo | SemiCom |  |  |
-| Dead Connection (World) | deadconx | Taito Corporation Japan |  |  |
+| Darwin 4078 (Japan) | darwin | Data East Corporation | ![GREAT](docs/compat/great_small.png) |  |
+| Date Quiz Go Go (Korea) | dquizgo | SemiCom | ![GREAT](docs/compat/great_small.png) |  |
+| Dead Connection (World) | deadconx | Taito Corporation Japan | ![OK](docs/compat/ok_small.png) | some performance issue |
 | Deco Cassette System Multigame (ROM based) [Bootleg] | decomult | bootleg (David Widel) |  |  |
-| Deer Hunting USA V4.3 | deerhunt | Sammy USA Corporation |  |  |
-| Defend the Terra Attack on the Red UFO | redufo | Artic |  |  |
-| Deluxe 5 (ver. 0107, 07/01/2000, set 1) | deluxe5 | ESD |  |  |
-| Demon Front (V105) | dmnfrnt | IGS |  |  |
-| Demon's World / Horror Story (set 1) | demonwld | Toaplan |  |  |
-| Depthcharge [No sound] | depthch | Gremlin |  |  |
-| Deroon DeroDero [No sound] | deroon | Tecmo |  |  |
+| Deer Hunting USA V4.3 | deerhunt | Sammy USA Corporation | ![BAD](docs/compat/bad_small.png) | bad controls |
+| Defend the Terra Attack on the Red UFO | redufo | Artic | ![GREAT](docs/compat/great_small.png) |  |
+| Deluxe 5 (ver. 0107, 07/01/2000, set 1) | deluxe5 | ESD | ![GREAT](docs/compat/great_small.png) |  |
+| Demon Front (V105) | dmnfrnt | IGS | ![BAD](docs/compat/bad_small.png) | severe performance issue |
+| Demon's World / Horror Story (set 1) | demonwld | Toaplan | ![GREAT](docs/compat/great_small.png) |  |
+| Depthcharge [No sound] | depthch | Gremlin | ![BAD](docs/compat/bad_small.png) | no sound |
+| Deroon DeroDero [No sound] | deroon | Tecmo | ![BAD](docs/compat/bad_small.png) | no sound |
 | Desert Breaker (World, FD1094 317-0196) | desertbr | Sega |  |  |
 | Desert Dan | desertdn | Video Optics |  |  |
 | Devastators (ver. Z) [Minor Video glitches in level 2.] | devstors | Konami |  |  |
 | Devil Fish | devilfsh | Artic |  |  |
-| Devil World | devilw | Konami |  |  |
+| Devil World | devilw | Konami | ![BAD](docs/compat/bad_small.png) | severe performance issue |
 | Dharma Doujou | dharma | Metro |  |  |
 | Diamond Run | diamond | KH Video |  |  |
 | Diet Go Go (Euro v1.1 1992.09.26) | dietgo | Data East Corporation |  |  |
@@ -1009,7 +1009,7 @@ The game status are as follow:
 | Multi Champ Deluxe (ver. 0106, 06/01/2000) | mchampdx | ESD |  |  |
 | Muscle Bomber Duo - ultimate team battle (931206 etc) | mbombrd | Capcom |  |  |
 | Mustache Boy (Japan) | mustache | Seibu Kaihatsu (March license) |  |  |
-| Mutant Fighter (World ver EM-5) | mutantf | Data East Corporation |  |  |
+| Mutant Fighter (World ver EM-5) | mutantf | Data East Corporation | ![BAD](docs/compat/bad_small.png) | performance issue |
 | Mutant Night | mnight | UPL |  |  |
 | Mutation Nation (NGM-014)(NGH-014) | mutnat | SNK |  |  |
 | MVP (set 2, US, FD1094 317-0143) | mvp | Sega |  |  |
@@ -1096,7 +1096,7 @@ The game status are as follow:
 | Ozon I | ozon1 | Proma |  |  |
 | P-47 - The Phantom Fighter (World) | p47 | Jaleco |  |  |
 | P-GeMeni (060123) [Homebrew] | pgemeni | blastar@gmx.net |  |  |
-| P.O.W. - Prisoners of War (US version 1) | pow | SNK |  |  |
+| P.O.W. - Prisoners of War (US version 1) | pow | SNK | ![GREAT](docs/compat/great_small.png) |  |
 | Pac & Pal | pacnpal | Namco |  |  |
 | Pac-Land (World) | pacland | Namco |  |  |
 | Pac-Man - 25th Anniversary Edition (Rev 3.00) | 25pacman | Namco / Cosmodog |  |  |
@@ -1367,7 +1367,7 @@ The game status are as follow:
 | SD Fighters (Korea) | sdfight | SemiCom |  |  |
 | SD Gundam Neo Battling (Japan) | neobattl | Banpresto / Sotsu Agency. Sunrise |  |  |
 | SD Gundam Psycho Salamander no Kyoui | sdgndmps | Banpresto / Bandai |  |  |
-| SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027) | sdi | Sega |  |  |
+| SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027) | sdi | Sega |  ![BAD](docs/compat/bad_small.png) | bad controls |
 | Search Eye (English / Korean / Japanese / Italian) | searchey | Yun Sung |  |  |
 | Search Eye Plus V2.0 | searchp2 | Yun Sung |  |  |
 | Secret Agent (World revision 3) | secretag | Data East Corporation |  |  |
@@ -1808,7 +1808,7 @@ The game status are as follow:
 | Wiping | wiping | Nichibutsu |  |  |
 | Wit's (Japan) | wits | Athena (Visco license) |  |  |
 | Wiz | wiz | Seibu Kaihatsu Inc. |  |  |
-| Wizard Fire (Over Sea v2.1) | wizdfire | Data East Corporation |  |  |
+| Wizard Fire (Over Sea v2.1) | wizdfire | Data East Corporation | ![OK](docs/compat/ok_small.png) | performance issue |
 | Wizz Quiz (Konami version) | wizzquiz | Zilec-Zenitone (Konami license) |  |  |
 | Wonder Boy (set 1, 315-5177) | wboy | Sega (Escape License) |  |  |
 | Wonder Boy III - Monster Lair (set 6, World, System 16B, 8751 317-0098) | wb3 | Sega / Westone |  |  |
